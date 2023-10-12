@@ -5,6 +5,7 @@ function Footer(){
     return(
 
         <footer className="footer">
+			<h1 className="tital">Sports Centra</h1>
   	 <div className="container">
   	 	<div className="row">
   	 		<div className="footer-col">

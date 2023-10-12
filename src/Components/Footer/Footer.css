@@ -21,9 +21,13 @@ ul{
 }
 .footer{
 	background-color: #24262b;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
     padding: 70px 0;
 }
 .footer-col{
+	margin-left: 5px;
    width: 16%;
    padding: 0 15px;
 }
@@ -88,4 +92,11 @@ ul{
   .footer-col{
     width: 100%;
 }
+}
+.tital{
+	text-align: center;
+	color: #ffffff;
+	position: static;
+	margin-top: -30px;
+	margin-bottom: 30px;
 }
