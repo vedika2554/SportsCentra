@@ -1,20 +1,23 @@
 import React from "react";
 import "./Footer.css";
 
+
+
 function Footer(){
     return(
+
         <footer className="footer">
-            <div className="container">
-                <div className="row">
-                    <div className="footer-col">
-                       <h4>Sport Category</h4> 
-                       <ul>
-                        <li><a href="#">Team Sport</a></li>
-                        <li><a href="#">Outdoor Sport</a></li>
-                        <li><a href="#">Indoor Sport</a></li>
-                       </ul>
-                    </div>
-                    <div className="footer-col">
+  	 <div className="container">
+  	 	<div className="row">
+  	 		<div className="footer-col">
+  	 			<h4>Sport Category</h4>
+  	 			<ul>
+  	 				<li><a href="#">Team Sport</a></li>
+  	 				<li><a href="#">Outdoor Sport</a></li>
+  	 				<li><a href="#">Indoor Sport</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div className="footer-col">
   	 			<h4>Our Services</h4>
   	 			<ul>
   	 				<li><a href="#">Find New</a></li>
@@ -24,7 +27,7 @@ function Footer(){
   	 				<li><a href="#">Sport Equipment</a></li>
   	 			</ul>
   	 		</div>
-               <div className="footer-col">
+			   <div className="footer-col">
   	 			<h4>About Us</h4>
   	 			<ul>
   	 				<li><a href="#">Our Store</a></li>
@@ -34,7 +37,7 @@ function Footer(){
   	 				<li><a href="#">payment options</a></li>
   	 			</ul>
   	 		</div>
-               <div className="footer-col">
+  	 		<div className="footer-col">
   	 			<h4>Help</h4>
   	 			<ul>
   	 				<li><a href="#">FAQ</a></li>
@@ -43,7 +46,7 @@ function Footer(){
   	 				<li><a href="#">dress</a></li>
   	 			</ul>
   	 		</div>
-               <div className="footer-col">
+			   <div className="footer-col">
   	 			<h4>More Info</h4>
   	 			<ul>
   	 				<li><a href="#">Our Store</a></li>
@@ -60,9 +63,10 @@ function Footer(){
   	 				<a href="#"><i className="fab fa-instagram"></i></a>
   	 				<a href="#"><i className="fab fa-linkedin-in"></i></a>
   	 			</div>
-                </div>
-            </div>
-        </footer>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
 
     )
 }
