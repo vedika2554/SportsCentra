@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 
+
+
 function Footer(){
     return(
 
@@ -54,10 +56,19 @@ function Footer(){
   	 				<li><a href="#">Trading Sports</a></li>
   	 			</ul>
   	 		</div>
+			   <div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
   	 		<div className="footer-col">
   	 			<h4>follow us</h4>
   	 			<div className="social-links">
-  	 				<a href="#"><i className="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fa-brands fa-facebook"></i></a>
   	 				<a href="#"><i className="fab fa-twitter"></i></a>
   	 				<a href="#"><i className="fab fa-instagram"></i></a>
   	 				<a href="#"><i className="fab fa-linkedin-in"></i></a>
