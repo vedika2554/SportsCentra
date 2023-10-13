@@ -47,3 +47,26 @@ body{
 .input img{
     margin: 0px 30px;
 }
+.input .inputs{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #1a0e00;
+    font-size: 19pc;
+
+}
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #1a0e00;
+    font-size: 18px;
+}
+.forgot-password span{
+    color: #1a0e00;
+    cursor: pointer;
+}
+.submit{
+    
+}
