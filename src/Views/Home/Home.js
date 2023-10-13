@@ -165,10 +165,25 @@ export default function Home()
   </div>
   
 
+  <h1 className='t5'>Our motive</h1>
 
 
+<h3 className='t4'>
+Vitality and Responsibility are two values that Sportcentra has been founded on and these are shared by more than 4500 teammates across India and 80,000 teammates worldwide. Daring to make the change is what guides everything we do.
+Inspired by our values, we are committed to being a responsible and active
+player in the economic and social development of underserved communities wherever we are present. Teammates are at the heart of our Project and thereby a large part of our social programmes are driven and facilitated by them, with a passion to ensure we create a strong positive impact both socially and environmentally through the activities undertaken. These factors set the base and backdrop of our website
+</h3>
+
+<h1 className='t5'>Our objective</h1>
+<h3><p className='t4'>• Our priority is to create value in the long term for our local community.</p>
+<p className='t4'> • We would like to make a difference in the community we are present in by influencing the development and social behaviour change by enabling employability and encouraging social integration through sports.</p></h3>
 
 
+<h1 className='t5'>Our Mission</h1>
+
+<h3><p  className='t4'>• Promoting good health and well-being of children from low-income families by engaging them in the sports program and by facilitating a sporty environment</p>
+<p  className='t4'>• Developing employability skills of vulnerable youths</p>
+<p className='t4'>• Engaging in disaster relief work</p></h3>
 
   <h1 className='t2'>Our Features</h1>
   <hr/>
@@ -177,7 +192,7 @@ export default function Home()
 
 <div className='c3'>
    <img className='fea'src={imgshop}/>
-   <h1 className='spga'>Free Shopping</h1>
+   <h1 className='spga'>Easy Shopping</h1>
 </div>
 
 <div className='c3'>

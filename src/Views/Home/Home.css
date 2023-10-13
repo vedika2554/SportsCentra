@@ -1,7 +1,7 @@
 .home{
     position: relative;
     top: -300px;
-    height: 700vh;
+    height: 850vh;
     background-color: 	 #1a0e00;
 }
 .t1{
@@ -126,3 +126,17 @@ border-radius: 40px;
     margin-top: 7px;
     border-radius: 20px;
     }
+    .t4{
+        margin-left: 50px;
+        margin-right: 50px;
+        
+        text-align: justify;
+        color: cornflowerblue;
+        margin-top: 20px;
+        }
+
+        .t5{
+            margin-top: 90px;
+            text-align: center;
+            color: brown;
+        }
