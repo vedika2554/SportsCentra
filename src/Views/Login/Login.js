@@ -14,7 +14,13 @@ function Login()
                     <div className="text">{action}</div>
                     <div className="underline"></div>
                 </div>
-                
+                <div className="inputs">
+                    {action==="login"?<div></div>:<div className="input">
+                        <img src={user_icon} alt=""/>
+                        <input type="text" placeholder="Name"/>
+                     </div>   }
+                     
+                </div>
             </div>
 
         )
