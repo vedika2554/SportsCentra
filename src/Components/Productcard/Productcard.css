@@ -1,0 +1,115 @@
+.card{
+    margin-top: 300px;
+    display: flex;
+}
+.na{
+    margin-left: 20px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: bisque;
+}
+
+.a{
+    position: relative;
+    top: 140px;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 60px;
+    color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b{
+    position: relative;
+    top: 116px;
+    margin-left: 20px;
+    font-size: 60px;
+    color:bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c{
+    margin-left: 205px;
+    position: relative;
+    top: 25px; 
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: cornflowerblue;
+}
+.g{
+    position: relative;
+    
+    top: 25px;
+    font-size: 60px;
+    color: bisque;
+}
+.d{
+    position: static;
+    margin-left: 0px;
+    font-size: 15px;
+    margin-top: 65px;
+    margin-left: 30px;
+    color:bisque;
+}
+.e{
+    position: relative;
+    top:40px;
+    margin-top: -30px;
+    margin-left: 0px;
+    font-size: 15px;
+    margin-left: 30px;
+    color:bisque;
+  
+}
+.f{
+    position: relative;
+   top: 80px;
+   margin-left:0px ;
+   margin-top: -30px;
+   font-size: 15px;
+   bottom: 80px;
+   margin-left: 30px;
+   color:bisque;
+}
+.sport{
+    margin-left: 170px;
+    margin-top: 170px;
+    height: 350px;
+    border-radius: 30px;
+}
+.btn1{
+    position: relative;;
+    top: 140px;
+    left: 30px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color:  	 #ffe8cc;
+    border-radius: 30px;
+    border: none;
+}
+.btn2
+{
+    position: relative;;
+    top: 140px;
+    left: 50px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color:  #ffe8cc;
+    border-radius: 30px;
+    border: none;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: brown;
+    
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+

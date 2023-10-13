@@ -7,6 +7,10 @@ body{
 	padding:0;
 	box-sizing: border-box;
 }
+.tital{
+	text-align: center;
+	color: #ffffff;
+}
 .container{
 	max-width: 1480px;
 	margin:auto;
@@ -21,15 +25,19 @@ ul{
 }
 .footer{
 	background-color: #24262b;
-	position: fixed;
-	bottom: 0px;
-	width: 100%;
-    padding: 70px 0;
+    padding: 70px ;
+	margin-top: 50px;
+	margin-left: 0px;
+	
 }
 .footer-col{
-	margin-left: 5px;
-   width: 16%;
-   padding: 0 15px;
+	margin-top: 50px;
+	margin-right: 85px;
+	position: relative;
+	left:20px;
+	
+   
+  
 }
 .footer-col h4{
 	font-size: 18px;
@@ -92,11 +100,4 @@ ul{
   .footer-col{
     width: 100%;
 }
-}
-.tital{
-	text-align: center;
-	color: #ffffff;
-	position: static;
-	margin-top: -30px;
-	margin-bottom: 30px;
 }

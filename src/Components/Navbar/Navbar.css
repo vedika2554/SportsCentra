@@ -29,7 +29,7 @@
     margin-top: 34px; 
     margin-bottom: 20px;
     text-decoration: none;
-    color: cornflowerblue;
+    color: 	 #1a0e00;
     font-size: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -78,4 +78,13 @@
 }
 .nav-menu:hover{
     text-decoration:underline;
+    color:cornflowerblue ;
+}
+.se:hover{
+    cursor: pointer;
+    
+}
+.b1:hover{
+    cursor: pointer;
+    background-color: #1a0e00;
 }
