@@ -19,7 +19,18 @@ function Login()
                         <img src={user_icon} alt=""/>
                         <input type="text" placeholder="Name"/>
                      </div>   }
-                     
+                     <div className="input">
+                        <img src={email_icon} alt=""/>
+                        ,<input type="email" placeholder="Email Id"/>
+                     </div>
+                     <div className="input">
+                        <img src={email_icon} alt=""/>
+                        ,<input type="email" placeholder="Email Id"/>
+                     </div>
+                     <div className="input">
+                        <img src={email_icon} alt=""/>
+                        ,<input type="password" placeholder="password"/>
+                     </div>
                 </div>
             </div>
 
