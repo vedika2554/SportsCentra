@@ -158,6 +158,68 @@ export default function Home()
 </div> 
   </div>
   
+
+
+
+
+
+
+
+
+
+
+  <h1 className='t2'>Customer Reviews</h1>
+            <hr className='h1'/>
+            <div className='container'>
+
+            <div className='c2'>
+              
+              <h1 className='pga'>"It was really nice talking to Ria - She really figured out my query & Now I am going with her suggestions. Thank you Ria once again."
+- BABAN</h1>
+            </div>
+
+            <div className='c2'>
+      
+               <h1 className='pga'>Support agent Hritika is super supportive, polite, simple and straightforward with customer queries. Most helpful agent ever to chat with. Thank You
+Hritika :)"
+- POUSALI</h1>
+            </div>
+
+             <div className='c2'>
+               <h1 className='pga'>"It was crisp and prompt help. Glad to chat with a customer relationship officer like Ms. Varsha. Regards"
+- KAMAL</h1>
+            </div> 
+              </div>
+              <div className='container'>
+
+<div className='c2'>
+ 
+   <h1 className='pga'>"Kshitij helped me with all the options and was really very concerned throughout. He deserves a thumbs up."
+- AKASHDEEP</h1>
+</div>
+
+<div className='c2'>
+   <h1 className='pga'>"This man just literally solved my problem in a few seconds, Thank you so much Sumeet."
+- MUKESH</h1>
+</div>
+
+ <div className='c2'>
+   
+   <h1 className='pga'>"Got the correct man and advice... Completely satisfied with Ayan and am going to order one ...'
+- AMAN</h1>
+</div> 
+  </div>
+  
+
+  <h1 className='t3'>Subscribe to the Sports Shop For Latest upload</h1>
+  <div>
+   <input className='input'type='email' placeholder='Enter your email id'/>
+   <button className='sub'>Subscribe</button>
+  </div>
+
+
+
+  
   
 
             

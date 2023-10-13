@@ -56,15 +56,7 @@ function Footer(){
   	 				<li><a href="#">Trading Sports</a></li>
   	 			</ul>
   	 		</div>
-			   <div class="footer-col">
-  	 			<h4>online shop</h4>
-  	 			<ul>
-  	 				<li><a href="#">watch</a></li>
-  	 				<li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li>
-  	 			</ul>
-  	 		</div>
+			   
   	 		<div className="footer-col">
   	 			<h4>follow us</h4>
   	 			<div className="social-links">
@@ -76,6 +68,16 @@ function Footer(){
   	 		</div>
   	 	</div>
   	 </div>
+	   <hr/>
+
+<h2>Regestered office</h2>
+<p>404,Laxmi Heights, Above Lotus Multispeciality Hospital
+  Manjari BK,Pune-412307. Person who may be contacted in case of any compliance related queries or grievances : Vedika Yadav (Vedika.y@Sportcentra.in)</p>
+  <hr/>
+
+<div >
+  <p className="cen">&copy; Sport Centra. All rights reserved.</p>
+</div>
   </footer>
 
     )
