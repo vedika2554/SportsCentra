@@ -11,6 +11,12 @@ import imgtennis from './../../Components/Image/tennis.jpg'
 import imgswim from './../../Components/Image/swimming.jpg'
 import imgcycle from './../../Components/Image/cycle.jpeg'
 import imgboxing from './../../Components/Image/boxing.jpg'
+import imgcarrom from './../../Components/Image/carrom.jpg'
+import imgludo from './../../Components/Image/ludo.jpg'
+import imgbusiness from './../../Components/Image/bisness.jpg'
+import imgchess from './../../Components/Image/chess.jpeg'
+import imgsneck from './../../Components/Image/sneck.jpg'
+import imgcheck from './../../Components/Image/checkers.jpg'
 
 
 
@@ -103,6 +109,52 @@ export default function Home()
  <div className='c1'>
    <img className='cri'src={imgboxing}/>
    <h1 className='spga'>Boxing</h1>
+</div> 
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <h1 className='t1'>Indoor Sports</h1>
+            <hr className='h1'/>
+            <div className='container'>
+
+            <div className='c1'>
+               <img className='fot'src={imgcarrom}/>
+              <h1 className='spga'>Carrom</h1>
+            </div>
+
+            <div className='c1'>
+               <img className='fot'src={imgludo}/>
+               <h1 className='spga'>Ludo</h1>
+            </div>
+
+             <div className='c1'>
+               <img className='cri'src={imgbusiness}/>
+               <h1 className='spga'>Bisness</h1>
+            </div> 
+              </div>
+              <div className='container'>
+
+<div className='c1'>
+   <img className='cri'src={imgchess}/>
+   <h1 className='spga'>Chess</h1>
+</div>
+
+<div className='c1'>
+   <img className='bas'src={imgsneck}/>
+   <h1 className='spga'>Snecks and ladder</h1>
+</div>
+
+ <div className='c1'>
+   <img className='bas'src={imgcheck}/>
+   <h1 className='spga'>Checkers</h1>
 </div> 
   </div>
   
