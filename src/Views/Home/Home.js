@@ -17,6 +17,12 @@ import imgbusiness from './../../Components/Image/bisness.jpg'
 import imgchess from './../../Components/Image/chess.jpeg'
 import imgsneck from './../../Components/Image/sneck.jpg'
 import imgcheck from './../../Components/Image/checkers.jpg'
+import imgshop from './../../Components/Image/shopping-cart.png'
+import imgdelivery from './../../Components/Image/free-delivery.png'
+import imgchoice from './../../Components/Image/choice.png'
+import imgreturn from './../../Components/Image/return (1).png'
+import imghour from './../../Components/Image/hours.png'
+import imgpay from './../../Components/Image/payment.png'
 
 
 
@@ -164,6 +170,51 @@ export default function Home()
 
 
 
+  <h1 className='t2'>Our Features</h1>
+  <hr/>
+
+  <div className='container'>
+
+<div className='c3'>
+   <img className='fea'src={imgshop}/>
+   <h1 className='spga'>Free Shopping</h1>
+</div>
+
+<div className='c3'>
+   <img className='fea'src={imgdelivery}/>
+   <h1 className='spga'>Fast and safe delivary</h1>
+</div>
+
+ <div className='c3'>
+   <img className='fea'src={imgchoice}/>
+   <h1 className='spga'>Right Choice</h1>
+</div> 
+  </div>
+  <div className='container'>
+
+  <div className='c3'>
+   <img className='fea'src={imgreturn}/>
+   <h1 className='spga'>Easy Return</h1>
+</div> 
+
+<div className='c3'>
+   <img className='fea'src={imghour}/>
+   <h1 className='spga'>24 Hours support</h1>
+</div> 
+
+<div className='c3'>
+   <img className='feo'src={imgpay}/>
+   <h1 className='spga'>Secure payment</h1>
+</div> 
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -210,6 +261,17 @@ Hritika :)"
 </div> 
   </div>
   
+  
+
+
+  
+
+
+
+
+
+
+
 
   <h1 className='t3'>Subscribe to the Sports Shop For Latest upload</h1>
   <div>

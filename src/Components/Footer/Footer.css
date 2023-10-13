@@ -26,6 +26,7 @@ ul{
 .footer{
 	background-color: bisque;
     padding: 70px ;
+	
 	margin-top: 70px;
 	margin-left: 0px;
 	
@@ -36,6 +37,7 @@ ul{
 	margin-right: 85px;
 	position: relative;
 	left:20px;
+	margin-bottom: 60px;
 	
    
  
@@ -60,6 +62,7 @@ ul{
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
+	
 }
 .footer-col ul li a{
 	font-size: 16px;
@@ -86,6 +89,7 @@ ul{
 	border-radius: 50%;
 	color: bisque;
 	transition: all 0.5s ease;
+	
 }
 .footer-col .social-links a:hover{
 	color: #1a0e00;

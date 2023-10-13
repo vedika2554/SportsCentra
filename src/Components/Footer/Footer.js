@@ -44,7 +44,7 @@ function Footer(){
   	 				<li><a href="#">FAQ</a></li>
   	 				<li><a href="#">Terms & Condition</a></li>
   	 				<li><a href="#">Privacy Policy</a></li>
-  	 				<li><a href="#">dress</a></li>
+  	 				
   	 			</ul>
   	 		</div>
 			   <div className="footer-col">
