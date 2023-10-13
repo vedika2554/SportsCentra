@@ -3,10 +3,14 @@ import Footer from './../../Components/Footer/Footer'
 export default function Ourservices()
 {
     return(
-        <div>
+      <>
       <Navbar/>
+        <div>
+      
         <h1>service</h1>
-        <Footer/>
+        
         </div>
+        <Footer/>
+        </>
     )
 }

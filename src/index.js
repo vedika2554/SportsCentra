@@ -7,7 +7,8 @@ import Sports from './Views/Sports/Sports';
 import About  from './Views/About/About'
 import Help from './Views/Help/Help'
 import Ourservices from './Views/Ourservices/Ourservices'
-
+import Login from './Views/Login/Login'
+import Forgot from './Views/Forgot/Forgot';
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,15 @@ const router = createBrowserRouter([
     path: '/Help',
     element: <Help/>
   },
+  {
+    path: '/login',
+    element: <Login/>
+  },
+  {
+    path: '/forgot',
+    element: <Forgot/>
+  }
+  
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

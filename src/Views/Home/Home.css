@@ -1,8 +1,8 @@
 .home{
     position: relative;
-    top: -300px;
-    height: 850vh;
+   
     background-color: 	 #1a0e00;
+    height: 820vh;
 }
 .t1{
     text-align: center;
@@ -23,6 +23,7 @@ border-radius: 20px;
     padding-top: 15px;
     padding-bottom: 10px;
     border-radius: 20px;
+    
 }
 .h1{
     color: bisque;

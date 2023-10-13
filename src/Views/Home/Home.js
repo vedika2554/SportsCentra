@@ -37,6 +37,8 @@ export default function Home()
         <Navbar/>
         <div className='home'>
             <Productcard/>
+
+            
             <h1 className='t1'>Team Sports</h1>
             <hr className='h1'/>
             <div className='container'>
@@ -163,6 +165,19 @@ export default function Home()
    <h1 className='spga'>Checkers</h1>
 </div> 
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
 
   <h1 className='t5'>Our motive</h1>
@@ -293,15 +308,15 @@ Hritika :)"
    <input className='input'type='email' placeholder='Enter your email id'/>
    <button className='sub'>Subscribe</button>
   </div>
+  </div> 
 
 
 
-  
-  
 
-            
-            <Footer/>
-        </div>
+
+
+  <Footer/>
+        
         </>
     )
 }

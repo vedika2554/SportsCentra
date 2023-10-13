@@ -1,0 +1,31 @@
+import Navbar from "./../../Components/Navbar/Navbar";
+import Footer from "./../../Components/Footer/Footer";
+import { Link } from "react-router-dom";
+import './../Forgot/Forgot.css'
+
+export default function forgot(){
+    return(
+        <>
+        <Navbar/>
+        <div className="sspa">
+        <div className="pass">
+            <h1>Forgot Password</h1>
+            <input className='user'type='text'placeholder="Username/Email"/>
+            <p className="ve">*OTP will be send to registered mobile no.
+</p>
+<button className="send">
+    Send OTP
+</button>
+<p className="ve">Resend OTP</p>
+<input className='user'type='text'placeholder="OTP"/>
+<p><button className="sen">
+    Submit
+</button>
+</p>
+<p className="ve"><Link className='nik' to='/login'>or create new Account</Link></p>
+            </div>
+            </div>
+        <Footer/>
+        </>
+    )
+}

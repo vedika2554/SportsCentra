@@ -1,0 +1,17 @@
+.sp{
+    background-color:  #1a0e00;
+    height: 600vh;
+}
+.tt1{
+    position: relative;
+    top: 80px;
+    color: brown;
+    text-align: center;
+}
+.container1{
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}

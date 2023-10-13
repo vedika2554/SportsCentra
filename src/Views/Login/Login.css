@@ -1,16 +1,20 @@
-body{
-    height: 94vh;
-    background: linear-gradient(#1a0e00,#230337);
-    margin-top: 50px;
-}
-.container{
+
+.contai{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 600px;
-    background: #fff;
+    width: 370px;
+    height: 520px;
+    background: bisque;
     padding-bottom: 30px;
-
+    position: relative;
+    top: 80px;
+    border-radius: 30px;
+    
+}
+.mar{
+    height: 95vh;
+    background-color: #1a0e00;
 }
 .header{
     display: flex;
@@ -21,47 +25,48 @@ body{
     margin-top: 30px;
 }
 .text{
-    color: #1a0e00;
-    font-size: 48px;
-    font-weight: 700;
+    color: cornflowerblue;
+    font-size: 40px;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .underline{
-    width: 61px;
+    width: 161px;
     height: 6px;
-    background: #1a0e00;
+    background: cornflowerblue;
     border-radius: 9px;
 }
-.inputs{
+.puts{
     margin-top: 55px;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
-.input{
+.put.put{
     display: flex;
     align-items: center;
     margin: auto;
-    width: 480px;
-    height: 80px;
-    background: #1a0e00;
+    width: 300px;
+    height: 50px;
+    background: brown;
     border-radius: 6px;
+    border-radius: 60px;
 }
-.input img{
+.put img{
     margin: 0px 30px;
 }
-.input input{
-    height: 50px;
+.put{height: 50px;
     width: 400px;
-    background: transparent;
+    background: brown;
     border: none;
     outline: none;
-    color: #797979;
+    color: bisque;
     font-size: 19px;
 }
 .forgot-password{
     padding-left: 62px;
     margin-top: 27px;
-    color: #797979;
+    color: #1a0e00;
     font-size: 18px;
 }
 .forgot-password span{
@@ -77,16 +82,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 220px;
+    width: 130px;
     height: 59px;
-    color: #fff;
-    background: #1a0e00;
+    color: bisque;
+    background: cornflowerblue;
     border-radius: 50px;
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
     cursor: pointer;
 }
 .gray{
-    background: #EAEAEA;
-    color: #676767;
+    background: cornflowerblue;
+    color: bisque;
+}
+.lop{
+    text-decoration: none;
+    color: #1a0e00;
 }

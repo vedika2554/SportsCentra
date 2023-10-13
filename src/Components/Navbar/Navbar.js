@@ -14,7 +14,7 @@ export default function Navbar()
             <input className='se' type='text'placeholder='Search'/>
             <button className='b1'>Search</button>
             <Link className='log'to='/login'>Login</Link>
-            <Link className='sign'to='/register'>Register</Link>
+            <Link className='sign'to='/login'>Register</Link>
         </div>
     );
 }

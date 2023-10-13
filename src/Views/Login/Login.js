@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "./../../Components/Navbar/Navbar";
+import Footer from "./../../Components/Footer/Footer";
 import "./Login.css";
-
+import { useState } from "react";
 import user_icon from './../../Components/Image/person.png';
 import email_icom from './../../Components/Image/email.png';
 import pass_icon from './../../Components/Image/password.png';
+import { Link } from "react-router-dom";
 
 
 function Login(){
@@ -11,37 +14,45 @@ function Login(){
     const [action,setAction] = useState("Login");
 
     return(
-        
-        <div className="container">
+        <>
+        <Navbar/>
+        <div className="mar">
+        <div className="contai">
         <div className="header">
          <div className="text">{action}</div>  
          <div className="underline"></div> 
         </div>
-        <div className="inputs">
-        {action==="Login"?<div></div>:<div className="input">
+        <div className="puts">
+        {action==="Login"?<div></div>:<div className="put">
             <img src={user_icon} alt=""/>
-            <input type="text" placeholder="Name"/>
+            <input className="put" type="text" placeholder="Name"/>
         </div> }
          
-        <div className="input">
-            <img src={email_icon} alt=""/>
-            <input type="email" placeholder="Email Id"/>
+        <div className="put">
+            <img src={email_icom} alt=""/>
+            <input className="put" type="email" placeholder="Email Id"/>
         </div>
-        <div className="input">
+
+        
+
+
+        <div className="put">
             <img src={pass_icon} alt=""/>
-            <input type="password" placeholder="Password"/>
+            <input className="put" type="password" placeholder="Password"/>
         </div>  
         </div>
-        {action==="Sign Up"?<div></div>:<div className="forgot-password">Lost Password? <span>Click Here!</span></div>}
+        {action==="Register"?<div></div>:<div className="forgot-password">Lost Password? <span><Link className='lop' to='/forgot'>Click Here!</Link></span></div>}
         
         <div className="submit-container">
-            <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Sign Up")}}>Sign Up</div>
-            <div className={action==="Sign Up"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
+            <div className={action==="Login"?"submit gray":"submit"} onClick={()=>{setAction("Register")}}>Register</div>
+            <div className={action==="Register"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
         </div>
         
     
         </div>
-
+        </div>
+        <Footer/>
+</>
   
         
 
