@@ -10,7 +10,8 @@ import Ourservices from './Views/Ourservices/Ourservices'
 import Login from './Views/Login/Login'
 import Forgot from './Views/Forgot/Forgot';
 import Hockey from './Views/Hockey/Hockey';
-import Cricket from './Views/Cricket/Cricket'
+import Cricket from './Views/Cricket/Cricket';
+import Carrom from './Views/Carrom/Carrom'
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -44,7 +45,13 @@ const router = createBrowserRouter([
   {
     path: '/Cricket',
     element: <Cricket/>
-  }
+  },
+  {
+    path: '/Carrom',
+    element: <Carrom/>
+  },
+  
+
   
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));

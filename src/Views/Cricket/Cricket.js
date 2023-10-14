@@ -6,7 +6,7 @@ import './../Cricket/Cricket.css'
 
 
 
-  function Hockey(){
+  function Cricket(){
     const [count, setcount] = useState(1);
     function inc(){
         if(count<10)
@@ -298,6 +298,6 @@ import './../Cricket/Cricket.css'
         </>
     )
  }
- export default Hockey
+ export default Cricket
 
 

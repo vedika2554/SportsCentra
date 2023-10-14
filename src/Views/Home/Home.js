@@ -62,8 +62,8 @@ export default function Home()
               <div className='container'>
 
 <div className='c1'>
-   <img className='fot'src={imgvollyball}/>
-   <h1 className='spga'>Vollyball</h1>
+<img className='fot'src={imgvollyball}/>
+    <h1 className='spga'>Vollyball</h1>
 </div>
 
 <div className='c1'>
@@ -94,7 +94,7 @@ export default function Home()
             </div>
 
             <div className='c1'>
-               <img className='bas'src={imgsketing}/>
+               <img className='fot1'src={imgsketing}/>
                <h1 className='spga'>Sketing</h1>
             </div>
 
@@ -111,7 +111,7 @@ export default function Home()
 </div>
 
 <div className='c1'>
-   <img className='bas'src={imgcycle}/>
+   <img className='fot1'src={imgcycle}/>
    <h1 className='spga'>Cycling</h1>
 </div>
 
@@ -135,8 +135,8 @@ export default function Home()
             <div className='container'>
 
             <div className='c1'>
-               <img className='fot'src={imgcarrom}/>
-              <h1 className='spga'>Carrom</h1>
+            <Link to='/Carrom'>   <img className='fot'src={imgcarrom}/></Link>
+              <h1 className='spga'><Link to='Carrom' className='r1'>Carrom</Link></h1>
             </div>
 
             <div className='c1'>
@@ -238,7 +238,6 @@ player in the economic and social development of underserved communities whereve
    <h1 className='spga'>Secure payment</h1>
 </div> 
 </div>
-
 
 
 
