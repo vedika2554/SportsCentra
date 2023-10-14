@@ -100,12 +100,14 @@ margin-top: 130px;
 margin-left: 480px;
 margin-top: 40px;
 background-color: brown;
-color: bisque;
 text-align: center;
 padding: 5px;
 font-size: 28px;
 border-radius: 20px;
 
+}
+input::placeholder{
+    color: bisque;
 }
 .sub{
 margin-left: 50px;

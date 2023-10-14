@@ -45,8 +45,8 @@ export default function Home()
             <div className='container'>
 
             <div className='c1'>
-               <img className='cri'src={imgcricket}/>
-              <h1 className='spga'>Cricket</h1>
+             <Link to='/Cricket'><img className='cri'src={imgcricket}/></Link> 
+              <h1 className='spga'><Link to='/Cricket'className='r1'>Cricket</Link></h1>
             </div>
 
             <div className='c1'>

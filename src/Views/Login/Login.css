@@ -55,6 +55,10 @@
 .put img{
     margin: 0px 30px;
 }
+.ji{
+    opacity: 90px;
+    
+}
 .put{height: 50px;
     width: 400px;
     background: brown;
@@ -62,6 +66,9 @@
     outline: none;
     color: bisque;
     font-size: 19px;
+}
+.put::placeholder{
+    color: bisque;
 }
 .forgot-password{
     padding-left: 62px;

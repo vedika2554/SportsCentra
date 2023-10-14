@@ -24,6 +24,9 @@
     border-radius: 30px;
     padding: 5px;
 }
+.user::placeholder{
+    color: bisque;
+}
 .send{
     display: block;
     margin-right: auto;
@@ -34,6 +37,9 @@
     border-radius: 30px;
     color: bisque;
     padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 .sen{
     display: block;
@@ -46,6 +52,8 @@
     border-radius: 30px;
     color: bisque;
     padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .ve{
     text-align: center;

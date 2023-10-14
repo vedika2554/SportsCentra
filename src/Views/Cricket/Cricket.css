@@ -1,0 +1,20 @@
+.pri{
+    display: block;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    border-radius: 20px;
+    }
+    .rbt{
+    background-color:  #1a0e00;
+       height: 420vh;
+    }
+    .fot1{
+    border-radius: 20px;
+    margin-top: 28px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px;
+    }

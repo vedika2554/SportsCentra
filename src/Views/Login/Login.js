@@ -24,12 +24,12 @@ function Login(){
         </div>
         <div className="puts">
         {action==="Login"?<div></div>:<div className="put">
-            <img src={user_icon} alt=""/>
+            <img className='ji'src={user_icon} alt=""/>
             <input className="put" type="text" placeholder="Name"/>
         </div> }
          
         <div className="put">
-            <img src={email_icom} alt=""/>
+            <img className='ji'src={email_icom} alt=""/>
             <input className="put" type="email" placeholder="Email Id"/>
         </div>
 
@@ -37,7 +37,7 @@ function Login(){
 
 
         <div className="put">
-            <img src={pass_icon} alt=""/>
+            <img className='ji' src={pass_icon} alt=""/>
             <input className="put" type="password" placeholder="Password"/>
         </div>  
         </div>

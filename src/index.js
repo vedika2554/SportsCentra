@@ -10,8 +10,7 @@ import Ourservices from './Views/Ourservices/Ourservices'
 import Login from './Views/Login/Login'
 import Forgot from './Views/Forgot/Forgot';
 import Hockey from './Views/Hockey/Hockey';
-
-
+import Cricket from './Views/Cricket/Cricket'
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -41,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: '/hockey',
     element: <Hockey/>
+  },
+  {
+    path: '/Cricket',
+    element: <Cricket/>
   }
   
 ])
