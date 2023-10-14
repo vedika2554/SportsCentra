@@ -9,6 +9,7 @@ import Help from './Views/Help/Help'
 import Ourservices from './Views/Ourservices/Ourservices'
 import Login from './Views/Login/Login'
 import Forgot from './Views/Forgot/Forgot';
+import Hockey from './Views/Hockey/Hockey';
 
 
 const router = createBrowserRouter([
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: '/forgot',
     element: <Forgot/>
+  },
+  {
+    path: '/hockey',
+    element: <Hockey/>
   }
   
 ])

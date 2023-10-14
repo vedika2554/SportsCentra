@@ -29,6 +29,7 @@ import imgpay from './../../Components/Image/payment.png'
 import Navbar from './../../Components/Navbar/Navbar'
 import Footer from './../../Components/Footer/Footer'
 import Productcard from './../../Components/Productcard/Productcard'
+import { Link } from 'react-router-dom'
 
 export default function Home()
 {
@@ -54,8 +55,8 @@ export default function Home()
             </div>
 
              <div className='c1'>
-               <img className='fot'src={imghockey}/>
-               <h1 className='spga'>Hockey</h1>
+              <Link to='/hockey'><img className='fot'src={imghockey}/></Link> 
+               <h1 className='spga'><Link to='/hockey' className='r1'>Hockey</Link></h1>
             </div> 
               </div>
               <div className='container'>
