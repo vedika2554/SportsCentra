@@ -2,3 +2,9 @@
     background-color:  #1a0e00;
        height: 270vh;
     }
+    .ri{  display: block;
+        height: 225px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        border-radius: 20px;}
