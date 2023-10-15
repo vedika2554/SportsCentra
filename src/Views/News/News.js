@@ -7,7 +7,7 @@ export default function News(){
 return(
     <>
     <Navbar/>
-<div className='bt'>
+<div className='new'>
             
                       
 <h1 className='tt1'>Trending news</h1>
