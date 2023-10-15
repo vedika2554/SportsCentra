@@ -15,7 +15,12 @@ import Carrom from './Views/Carrom/Carrom';
 import Business from './Views/Business/Business';
 import Sketing from './Views/Sketing/Sketing';
 import Tennis from './Views/Tennis/Tennis';
+
+import Football from './Views/Football/Football';
+import Swimming from './Views/Swimming/Swimming';
+
 import News from './Views/News/News';
+
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -67,10 +72,19 @@ const router = createBrowserRouter([
     element: <Tennis/>
   },
   {
+
+    path: '/Football',
+    element: <Football/>
+
     path: '/News',
     element: <News/>
+
   },
 
+  {
+    path: '/Swimming',
+    element:<Swimming/>
+  }
   
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
