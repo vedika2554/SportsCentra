@@ -94,8 +94,8 @@ export default function Home()
             </div>
 
             <div className='c1'>
-               <img className='fot1'src={imgsketing}/>
-               <h1 className='spga'>Sketing</h1>
+            <Link to='/Sketing'> <img className='fot1'src={imgsketing}/></Link>
+               <h1 className='spga'><Link to='/Sketing'className='r1'>Sketing</Link></h1>
             </div>
 
              <div className='c1'>
