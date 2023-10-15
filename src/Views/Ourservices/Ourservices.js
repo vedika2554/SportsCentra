@@ -35,8 +35,8 @@ export default function Ourservices()
               <div className='container1'>
 
 <div className='car2'>
-<img className='rcri'src={"https://cdn-icons-png.flaticon.com/128/8848/8848976.png"}/>
-    <h1 className='mol'>Sports news</h1>
+<Link to='/News'><img className='rcri'src={"https://cdn-icons-png.flaticon.com/128/8848/8848976.png"}/></Link>
+<h1 className='mol'><Link to='/News' className='r1'>Sports news</Link></h1>
     <p className='ou-se'>Get the latest news , updates  about sports and remain yourself updated</p>
 </div>
 
