@@ -30,9 +30,9 @@ import './../Sketing/Sketing.css';
    <div className='container1'>
 
            <div className='c1'>
-              <img className='tri'src={"https://m.media-amazon.com/images/I/51bb9dwdgAL._SX522_.jpg"}/>
-             <h1 className='spga'>Hockey Stick</h1>
-             <span className='que'>Prize : ₹348 <del className='del'>  M.R.P. : ₹749</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+              <img className='tri'src={"https://m.media-amazon.com/images/I/61xN7L1kK2L._AC_UL480_FMwebp_QL65_.jpg"}/>
+             <h1 className='spga'>Roller Skates</h1>
+             <span className='que'>Prize : ₹1499 <del className='del'>  M.R.P. : ₹1799</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
              <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -44,10 +44,10 @@ import './../Sketing/Sketing.css';
            </div>
 
            <div className='c1'>
-              <img className='tri'src={"https://m.media-amazon.com/images/I/61sdgTD7k1L._SX522_.jpg"}/>
-              <h1 className='spga'>Hockey Gloves</h1>
+              <img className='tri'src={"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTNlCe-p3suMRFPrKoiUPDtMSTs8YyrL4Jb1tqFcaOg3MIeV-ttSHbuX4MSTCnV-o_6HPvpPdTuF1o6LfJPswffk5lPhRD6WxutMYFG4k8RkpKP4CSae6rGG3ffn05m7I6VjTHxwXE&usqp=CAc"}/>
+              <h1 className='spga'>Sketting Helmet</h1>
             
-          <span className='que'>Prize : ₹1,773 <del className='del'> M.R.P. : ₹3,042</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+          <span className='que'>Prize : ₹599 <del className='del'> M.R.P. : ₹899</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
           <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -57,9 +57,9 @@ import './../Sketing/Sketing.css';
              </div><p><button  className='tata'>Buy now</button></p> </div>
 
             <div className='c1'>
-              <img className='tri'src={"https://m.media-amazon.com/images/I/71GF1yCom+L._SX522_.jpg"}/>
-              <h1 className='spga'>Hockey Sketes</h1>
-              <span className='que'>Prize : ₹3,854 <del className='del'> M.R.P. : ₹6,060</del> </span> <p  className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+              <img className='tri'src={"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSLYtoTKihHVaQlJ7t5rxaydz8h2xCuEyzdsg16VdO4mWqTKLxhJUBD-btg1oV9-QQMd1vaXysvxOgZyC1i_huHqiq8VgPsaNRuNwqpkhbiPoOvdrIbdN53LGSYENtSWAnC2h8xA2k&usqp=CAc"}/>
+              <h1 className='spga'>Knee Pads</h1>
+              <span className='que'>Prize : ₹299 <del className='del'> M.R.P. : ₹599</del> </span> <p  className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
               <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
