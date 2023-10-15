@@ -26,14 +26,14 @@ import './../Tennis/Tennis.css'
         <div className='bt'>
             
                       
-       <h1 className='tt1'>Hockey Equipment</h1>
+       <h1 className='tt1'>Tennis Equipment</h1>
        <hr className='hre'/>
    <div className='container1'>
 
            <div className='c1'>
-              <img className='tri'src={"https://m.media-amazon.com/images/I/51bb9dwdgAL._SX522_.jpg"}/>
-             <h1 className='spga'>Hockey Stick</h1>
-             <span className='que'>Prize : ₹348 <del className='del'>  M.R.P. : ₹749</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+              <img className='tri'src={"https://www.shutterstock.com/image-vector/crossed-racket-tennis-ball-black-260nw-422361448.jpg"}/>
+             <h1 className='spga'>Tennis Racket</h1>
+             <span className='que'>Prize : ₹449 <del className='del'>  M.R.P. : ₹749</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
              <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -45,10 +45,10 @@ import './../Tennis/Tennis.css'
            </div>
 
            <div className='c1'>
-              <img className='tri'src={"https://m.media-amazon.com/images/I/61sdgTD7k1L._SX522_.jpg"}/>
-              <h1 className='spga'>Hockey Gloves</h1>
+              <img className='tri'src={"https://tennex.in/cdn/shop/files/CentreCourtTennisBallYellow.png?v=1688065576&width=416"}/>
+              <h1 className='spga'>Tennis Ball</h1>
             
-          <span className='que'>Prize : ₹1,773 <del className='del'> M.R.P. : ₹3,042</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+          <span className='que'>Prize : ₹773 <del className='del'> M.R.P. : ₹1,042</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
           <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -58,8 +58,8 @@ import './../Tennis/Tennis.css'
              </div><p><button  className='tata'>Buy now</button></p> </div>
 
             <div className='c1'>
-              <img className='tri'src={"https://m.media-amazon.com/images/I/71GF1yCom+L._SX522_.jpg"}/>
-              <h1 className='spga'>Hockey Sketes</h1>
+              <img className='tri'src={"https://rukminim2.flixcart.com/image/850/1000/xif0q/shoe/o/i/r/-original-imagqyxedye8emgj.jpeg?q=90"}/>
+              <h1 className='spga'>Tennis Shoes</h1>
               <span className='que'>Prize : ₹3,854 <del className='del'> M.R.P. : ₹6,060</del> </span> <p  className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
               <div className='star'>
              <i class="fa-solid fa-star checked"></i>
