@@ -11,8 +11,9 @@ import Login from './Views/Login/Login'
 import Forgot from './Views/Forgot/Forgot';
 import Hockey from './Views/Hockey/Hockey';
 import Cricket from './Views/Cricket/Cricket';
-import Carrom from './Views/Carrom/Carrom'
-import Business from './Views/Business/Business'
+import Carrom from './Views/Carrom/Carrom';
+import Business from './Views/Business/Business';
+import Sketing from './Views/Sketing/Sketing';
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
   {
     path: '/Carrom',
     element: <Carrom/>
+  },
+  {
+    path: '/Sketing',
+    element: <Sketing/>
   },
   {
     path: '/Business',
