@@ -15,6 +15,7 @@ import Carrom from './Views/Carrom/Carrom';
 import Business from './Views/Business/Business';
 import Sketing from './Views/Sketing/Sketing';
 import Tennis from './Views/Tennis/Tennis';
+import Football from './Views/Football/Football';
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
   {
     path: '/tennis',
     element: <Tennis/>
+  },
+  {
+    path: '/Football',
+    element: <Football/>
   },
 
   

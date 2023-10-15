@@ -50,8 +50,10 @@ export default function Home()
             </div>
 
             <div className='c1'>
-               <img className='fot'src={imgFootball}/>
-               <h1 className='spga'>Football</h1>
+
+                   <Link to='/Football'> <img className='fot'src={imgFootball}/></Link>
+               <h1 className='spga'><Link to='/Football'className='r1'>Football</Link></h1>
+            
             </div>
 
              <div className='c1'>

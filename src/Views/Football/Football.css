@@ -1,0 +1,123 @@
+.section-white{
+    background:pink;
+    padding:40px 0;
+    border-radius: 13px;
+  }
+  .team-item{
+    background-color: burlywood;
+    text-align: center;
+    margin:20px 0;
+    padding:10px 10px 5px 15px;
+    border-radius: 6px 6px;
+    transition:  black;
+  }
+  
+  .team-item:hover{
+    transition:scale(0.5);
+    transform:scale(1.1);
+  }
+  .team-item {
+   margin:20px 0 1px  ;
+   color:454545;
+   font-size:18px;
+   font-weight:700;
+   text-transform:uppercase;
+   transition:all 0.25s  ease-in-out;
+   transition:  all 0.25s ease-in-out;
+    -webkit-transition:all 0.25s ease-in-out ;
+    -moz-transition: all 0.25s ease-in-out;
+  }
+   
+  .section-subtitle{
+    white-space: pre-line;
+  }
+  .team-item:hover h3{
+    color:bold black;
+  }
+  .team-info{
+    display:block;
+    margin-bottom: o;
+  }
+  .team-info {
+    color:black;
+    font-size:20px;
+    font-style: italic;
+  }
+  
+  .team-img{
+    max-width:380px;
+    padding:6px 2px;
+    background-color: #dedede;
+    
+  border-radius: 5px;
+  
+  }
+  .team-icon{
+    
+  display:inline-block;
+  height:45px;
+  margin-left:64px ;
+  margin-right:25px;
+  font-size:27px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#cc0c39;
+  
+  }
+ .section-title{
+  
+  font-size:15px;
+  color:black;
+  text:bold;
+  
+
+ }
+  
+  .colon{
+    margin-left:80px;
+    display: inline-block;
+  }
+  .twitter{
+    color: darkorange;
+  
+  
+  }
+
+  
+.facebook{
+    display:inline-block;
+    margin-right:10px;
+    color:purple;
+    font-size:18px;
+    padding: 10px;
+}
+.pinterest{
+    height:50px;
+    width:120px;
+    margin-left: 5px;
+    margin-bottom:15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding:3px;
+    cursor:pointer;
+    background-color: yellowgreen;
+    font-size:20px;
+}
+.pinterest:hover{
+  background-color: rgb(143, 97, 97);
+  color:white;
+
+}
+
+.dribble{
+  display: inline-block;
+  color:#000000;
+  font-size: 20px;
+}
+
+.col-sm-6 col-md-4{
+  text-align:left;
+  height:440px;
+  border:0.4px solid #37bbbb;
+  box-shadow: 0 0 4px 4px #527a7a;
+  border-radius:13px;
+}
