@@ -44,7 +44,7 @@ import img12  from './../../Components/Image/images/body.webp'
            <div className='c1'>
               <img className='tri'src={img1}/>
              <h1 className='spga'>Kids Suit</h1>
-             <span className='que'>Prize : ₹348 <del className='del'>  M.R.P. : ₹749</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+             <span className='que'>Prize : ₹348 <del className='del'>  M.R.P. : ₹549</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
              <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -59,7 +59,7 @@ import img12  from './../../Components/Image/images/body.webp'
               <img className='tri'src={img2}/>
               <h1 className='spga'>Body Suit</h1>
             
-          <span className='que'>Prize : ₹1,773 <del className='del'> M.R.P. : ₹3,042</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+          <span className='que'>Prize : ₹1,773 <del className='del'> M.R.P. : ₹3,142</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
           <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -213,7 +213,7 @@ import img12  from './../../Components/Image/images/body.webp'
 <div className='c1'>
    <img className='tri'src={img3}/>
   <h1 className='spga'>Bags</h1>
-  <span className='que'>Prize : ₹2,108 <del className='del'> M.R.P. : ₹10,156</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+  <span className='que'>Prize : ₹2,108 <del className='del'> M.R.P. : ₹5,156</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
   <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -225,7 +225,7 @@ import img12  from './../../Components/Image/images/body.webp'
 <div className='c1'>
    <img className='tri'src={img8}/>
    <h1 className='spga'>Water Pads</h1>
-   <span className='que'>Prize : ₹11,850 <del className='del'> M.R.P. : ₹21,219</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+   <span className='que'>Prize : ₹1,850 <del className='del'> M.R.P. : ₹2,219</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
    <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -237,7 +237,7 @@ import img12  from './../../Components/Image/images/body.webp'
  <div className='c1'>
    <img className='tri'src={img9}/>
    <h1 className='spga'>Net</h1>
-   <span className='que'>Prize : ₹5,489 <del className='del'> M.R.P. : ₹21,582</del> </span><p  className='sav'>Save upto 37%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+   <span className='que'>Prize : ₹5,489 <del className='del'> M.R.P. : ₹2,582</del> </span><p  className='sav'>Save upto 37%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
    <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
