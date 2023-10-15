@@ -1,123 +1,85 @@
-.section-white{
-    background:pink;
-    padding:40px 0;
-    border-radius: 13px;
+.bt{
+  background-color:  #1a0e00;
+  height: 415vh;
+}
+.tri{
+  display: block;
+  height: 250px;
+  margin-left: auto;
+  margin-right: 80px;
+  margin-top: 7px;
+  border-radius: 20px;
   }
-  .team-item{
-    background-color: burlywood;
-    text-align: center;
-    margin:20px 0;
-    padding:10px 10px 5px 15px;
-    border-radius: 6px 6px;
-    transition:  black;
+  .que{
+      margin-top: 10px;
+      font-size: 20px;
+      display: block;
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:  #1a0e00
   }
-  
-  .team-item:hover{
-    transition:scale(0.5);
-    transform:scale(1.1);
+  .sav{
+      font-size: 20px;
+      margin-left: 80px;
+      color: brown;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .team-item {
-   margin:20px 0 1px  ;
-   color:454545;
-   font-size:18px;
-   font-weight:700;
-   text-transform:uppercase;
-   transition:all 0.25s  ease-in-out;
-   transition:  all 0.25s ease-in-out;
-    -webkit-transition:all 0.25s ease-in-out ;
-    -moz-transition: all 0.25s ease-in-out;
-  }
-   
-  .section-subtitle{
-    white-space: pre-line;
-  }
-  .team-item:hover h3{
-    color:bold black;
-  }
-  .team-info{
-    display:block;
-    margin-bottom: o;
-  }
-  .team-info {
-    color:black;
-    font-size:20px;
-    font-style: italic;
-  }
-  
-  .team-img{
-    max-width:380px;
-    padding:6px 2px;
-    background-color: #dedede;
+  .incre{
+      margin-top: 10px;
+      margin-left: 25px;
+      margin-right: 5px;
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-top: 3px;
     
-  border-radius: 5px;
-  
+      padding: 5px;
+      background-color: cornflowerblue;
+      color: bisque;
+
   }
-  .team-icon{
-    
-  display:inline-block;
-  height:45px;
-  margin-left:64px ;
-  margin-right:25px;
-  font-size:27px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:#cc0c39;
-  
+  .decre{
+      font-size: 25px;
+      padding-top: 3px;
+      margin-left: 5px;
+      padding-top: 3px;
+      padding: 5px;
+      background-color: cornflowerblue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: bisque;
+
   }
- .section-title{
-  
-  font-size:15px;
-  color:black;
-  text:bold;
-  
-
- }
-  
-  .colon{
-    margin-left:80px;
-    display: inline-block;
+  .star{
+      margin-top: 10px;
+      text-align: center;
+      color:  #1a0e00
+     
   }
-  .twitter{
-    color: darkorange;
-  
-  
+  .tata{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      font-size: 25px;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 70%;
+      padding: 10px;
+      border-radius: 30px;
+      background-color: cornflowerblue;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: bisque;
   }
+  .del{
+margin-left: 10px;
+font-size: 15px;
+color:  #1a0e00
 
-  
-.facebook{
-    display:inline-block;
-    margin-right:10px;
-    color:purple;
-    font-size:18px;
-    padding: 10px;
-}
-.pinterest{
-    height:50px;
-    width:120px;
-    margin-left: 5px;
-    margin-bottom:15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    padding:3px;
-    cursor:pointer;
-    background-color: yellowgreen;
-    font-size:20px;
-}
-.pinterest:hover{
-  background-color: rgb(143, 97, 97);
-  color:white;
-
-}
-
-.dribble{
-  display: inline-block;
-  color:#000000;
-  font-size: 20px;
-}
-
-.col-sm-6 col-md-4{
-  text-align:left;
-  height:440px;
-  border:0.4px solid #37bbbb;
-  box-shadow: 0 0 4px 4px #527a7a;
-  border-radius:13px;
-}
+  }
+  .fa-solid {
+      margin-left: 15px;
+  }
+ hr.hre{
+      position: relative;
+      top:85px;
+      
+  }
