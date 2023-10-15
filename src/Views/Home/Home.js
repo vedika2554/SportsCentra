@@ -108,8 +108,8 @@ export default function Home()
               <div className='container'>
 
 <div className='c1'>
-   <img className='fot'src={imgswim}/>
-   <h1 className='spga'>Swimming</h1>
+ <Link to='/Swimming' ><img className='fot'src={imgswim}/></Link>
+   <h1 className='spga'><Link to='/Swimming' className='r1'>Swimming</Link></h1>
 </div>
 
 <div className='c1'>
