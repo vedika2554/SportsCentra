@@ -41,7 +41,7 @@ function Football (){
 
            <div className='c1'>
               <img src={img1} className="tri" alt="pic"></img>
-             <h1 className='spga'>Hockey Stick</h1>
+             <h1 className='spga'>Football Net</h1>
              <span className='que'>Prize : ₹348 <del className='del'>  M.R.P. : ₹749</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
              <div className='star'>
              <i class="fa-solid fa-star checked"></i>
@@ -55,7 +55,7 @@ function Football (){
 
            <div className='c1'>
            <img src={img2} className="tri" alt="pic"></img>
-              <h1 className='spga'>Hockey Gloves</h1>
+              <h1 className='spga'>Football Ball</h1>
             
           <span className='que'>Prize : ₹1,773 <del className='del'> M.R.P. : ₹3,042</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
           <div className='star'>
@@ -68,7 +68,7 @@ function Football (){
 
             <div className='c1'>
             <img src={img12} className="tri" alt="pic"></img>
-              <h1 className='spga'>Hockey Sketes</h1>
+              <h1 className='spga'>Cones</h1>
               <span className='que'>Prize : ₹3,854 <del className='del'> M.R.P. : ₹6,060</del> </span> <p  className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
               <div className='star'>
              <i class="fa-solid fa-star checked"></i>
@@ -82,7 +82,7 @@ function Football (){
 
 <div className='c1'>
 <img src={img6} className="tri" alt="pic"></img>
-  <h1 className='spga'>Hockey Balls</h1>
+  <h1 className='spga'>Trendy Football Shoes</h1>
   <span className='que'>Prize : ₹625 <del className='del'> M.R.P. : ₹699</del> </span> <p  className='sav'>Save upto 11%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
   <div className='star'>
              <i class="fa-solid fa-star checked"></i>
@@ -94,7 +94,7 @@ function Football (){
 
 <div className='c1'>
 <img src={img5} className="tri" alt="pic"></img>
-  <h1 className='spga'>Hockey shooting pad</h1>
+  <h1 className='spga'>Football shooting pad</h1>
   <span className='que'>Prize : ₹3,618 <del className='del'> M.R.P. : ₹5,689</del> </span> <p  className='sav'>Save upto 40%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
   <div className='star'>
              <i class="fa-solid fa-star checked"></i>
