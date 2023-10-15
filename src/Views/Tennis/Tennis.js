@@ -255,4 +255,4 @@ import './../Tennis/Tennis.css'
         </>
     )
  }
- export default Tennis
+ export default Hockey

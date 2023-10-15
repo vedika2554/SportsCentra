@@ -114,7 +114,7 @@ import { useState } from 'react'
 
 <div className='c1'>
   <img className='fot1'src={"https://m.media-amazon.com/images/I/71-eb7z0t-L._AC_UL480_QL65_.jpg"}/>
-  <h1 className='spga'>Carrom combo</h1>
+  <h1 className='spga'>Business combo</h1>
   <span className='que'>Prize : ₹385 <del className='del'> M.R.P. : ₹499 </del> </span> <p  className='sav'>Save upto 23%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
   <div className='star'>
              <i class="fa-solid fa-star checked"></i>

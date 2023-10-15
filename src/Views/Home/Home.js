@@ -99,8 +99,8 @@ export default function Home()
             </div>
 
              <div className='c1'>
-               <img className='fot'src={imgtennis}/>
-               <h1 className='spga'>Tennis</h1>
+             <Link to='/Tennis'>   <img className='fot'src={imgtennis}/></Link>
+               <h1 className='spga'><Link to='/Tennis'className='r1'>Tennis</Link></h1>
             </div> 
               </div>
               <div className='container'>
@@ -136,7 +136,7 @@ export default function Home()
 
             <div className='c1'>
             <Link to='/Carrom'>   <img className='fot'src={imgcarrom}/></Link>
-              <h1 className='spga'><Link to='Carrom' className='r1'>Carrom</Link></h1>
+              <h1 className='spga'><Link to='/Carrom' className='r1'>Carrom</Link></h1>
             </div>
 
             <div className='c1'>
