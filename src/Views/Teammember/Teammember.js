@@ -56,7 +56,7 @@ let name_6='Anuj';
         <img src={img9} className="team-img "alt="pic"></img>
         <h3> {name_1}</h3>
         <div className="team-info">
-        <p>head of seo</p>
+
         <li>No.354356</li>
         E-mail:@gmail.com
      <ul className="team-icon">
@@ -87,7 +87,7 @@ let name_6='Anuj';
         <h3> {name_3}</h3>
         
         <div className="team-info">
-        <p>head of seo</p>
+   
         <li>No.354356</li>
         E-mail:2@gmail.com
      <ul className="team-icon">
@@ -114,7 +114,7 @@ let name_6='Anuj';
         <img src={img8}className="team-img "alt="pic"></img>
         <h3>{name_2}</h3>
         <div className="team-info">
-        <p>head of seo</p>
+        
 
         <li>No.354356</li>
         E-mail:22@gmail.com
@@ -144,7 +144,7 @@ let name_6='Anuj';
         <img src={img4} className="team-img "alt="pic"></img>
         <h3> {name_4}</h3>
         <div className="team-info">
-        <p>head of seo</p>
+      
         <li>No.354356</li>
         E-mail:@gmail.com
      <ul className="team-icon">
@@ -171,7 +171,7 @@ let name_6='Anuj';
         <img src={img11} className="team-img "alt="pic"></img>
         <h3> {name_5}</h3>
         <div className="team-info">
-        <p>head of seo</p>
+        
         <li>No.354356</li>
         E-mail:@gmail.com
      <ul className="team-icon">
@@ -199,7 +199,7 @@ let name_6='Anuj';
         <h3>{name_6}</h3>
         <div className="team-info">
         
-        <p>head of seo</p>
+        
 
         <li>No.341154</li>
         <li>E.mail:@gmail.com</li>
