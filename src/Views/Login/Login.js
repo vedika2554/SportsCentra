@@ -16,12 +16,18 @@ function Login(){
     return(
         <>
         <Navbar/>
+
+
+        
         <div className="mar">
+        <h1 className='tt1'>Login</h1>
+            <hr className='hre'/>
         <div className="contai">
         <div className="header">
          <div className="text">{action}</div>  
          <div className="underline"></div> 
         </div>
+        
         <div className="puts">
         {action==="Login"?<div></div>:<div className="put">
             <img className='ji'src={user_icon} alt=""/>

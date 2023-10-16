@@ -15,9 +15,16 @@ import Carrom from './Views/Carrom/Carrom';
 import Business from './Views/Business/Business';
 import Sketing from './Views/Sketing/Sketing';
 import Tennis from './Views/Tennis/Tennis';
+
 import Football from './Views/Football/Football';
 import Swimming from './Views/Swimming/Swimming';
+<<<<<<< HEAD
 import Teammember from './Views/Teammember/Teammember';
+=======
+
+import News from './Views/News/News';
+
+>>>>>>> 6441fb500a9dc70ee41ae25da45fe625948a04a8
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -69,8 +76,14 @@ const router = createBrowserRouter([
     element: <Tennis/>
   },
   {
+
     path: '/Football',
     element: <Football/>
+  },
+  {
+    path: '/News',
+    element: <News/>
+
   },
 
   {

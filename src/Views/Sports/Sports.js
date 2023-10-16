@@ -2,7 +2,8 @@ import Navbar from './../../Components/Navbar/Navbar'
 import Footer from './../../Components/Footer/Footer'
 import { useState } from 'react'
 import './../Sports/Sports.css'
-
+import img2 from './../../Components/Image/images/ball.jpg'
+import img11 from './../../Components/Image/images/pads.jpg'
 
 
 function Hockey(){
@@ -66,6 +67,65 @@ function Hockey(){
      
      
      </div>
+
+     <div className='container1'>
+     
+     <div className='c1'>
+  <img src={img2} className="cri" alt="pic"></img>
+    
+<h1 className='spga'>Football Ball</h1>
+<span className='que'>Prize : ₹4,554 <del className='del'> M.R.P. : ₹7,956</del></span><p  className='sav'>Save upto 46%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+<div className='star'>
+             <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+             </div><p><button  className='tata'>Buy now</button></p></div>
+
+
+
+
+
+             <div className='c1'>
+              <img className='cri'src={"https://m.media-amazon.com/images/I/61xN7L1kK2L._AC_UL480_FMwebp_QL65_.jpg"}/>
+             <h1 className='spga'>Roller Skates</h1>
+             <span className='que'>Prize : ₹1499 <del className='del'>  M.R.P. : ₹1799</del> </span> <p className='sav'>Save upto 54%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+             <div className='star'>
+             <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+             </div>
+             <p><button className='tata'>Buy now</button></p>
+           </div>
+
+           <div className='c1'>
+<img className='cri'src={img11}/>
+<h1 className='spga'>Floating Pads</h1>
+<span className='que'>Prize : ₹2,560 <del className='del'> M.R.P. : ₹3,240</del></span><p  className='sav'>Save upto 33%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+<div className='star'>
+             <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+             </div><p><button  className='tata'>Buy now</button></p></div>
+  
+  
+  </div>
+
+
+
+
+
+
+
+
+
+
+
      </div>
      
         <Footer/>

@@ -1,6 +1,6 @@
 .pass{
     position: relative;
-    top: 80px;
+    top: 130px;
     margin-left: auto;
     margin-right: auto;
     background-color: bisque;
@@ -11,7 +11,7 @@
 }
 .sspa{
     background-color: #1a0e00;
-    height:200vh;
+    height:100vh;
 }
 .user{
     display: block;
@@ -63,4 +63,8 @@
 .nik{
     color: #1a0e00;
     text-decoration: none;
+}
+.bonj{
+    color: cornflowerblue;
+   
 }

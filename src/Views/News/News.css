@@ -1,0 +1,38 @@
+.nt1{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    color: cornflowerblue;
+}
+.ct1{
+    margin-top: 50px;
+    margin-left: 5px;
+    background-color: bisque;
+    width:600px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    
+}
+.dri{
+    height: 300px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+margin-top: 7px;
+border-radius: 20px;
+}
+.bnm{
+    display: block;
+    position: relative;
+    margin-top: -20px;
+    margin-right: 20px;
+    text-align: end;
+    color: brown;
+    text-decoration: none;
+}
+.new{
+    background-color:  #1a0e00;
+    height: 380vh;
+}

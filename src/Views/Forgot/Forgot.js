@@ -8,8 +8,11 @@ export default function forgot(){
         <>
         <Navbar/>
         <div className="sspa">
+        
+        <h1 className='tt1'>Forgot password</h1>
+            <hr className='hre'/>
         <div className="pass">
-            <h1>Forgot Password</h1>
+            <h1 className="bonj">Forgot Password</h1>
             <input className='user'type='text'placeholder="Username/Email"/>
             <p className="ve">*OTP will be send to registered mobile no.
 </p>
