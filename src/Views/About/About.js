@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import Navbar from './../../Components/Navbar/Navbar'
 import Footer from './../../Components/Footer/Footer'
 import './../About/About.css'
@@ -54,3 +56,4 @@ export default function About(){
           </>
     )
 }
+>>>>>>> 6441fb500a9dc70ee41ae25da45fe625948a04a8
