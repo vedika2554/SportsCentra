@@ -30,12 +30,12 @@ function Login(){
         
         <div className="puts">
         {action==="Login"?<div></div>:<div className="put">
-            <img className='ji'src={user_icon} alt=""/>
+            <img className='ji'src={'https://img.icons8.com/?size=30&id=KGd3l-Cw0Eqn&format=png'} alt=""/>
             <input className="put" type="text" placeholder="Name"/>
         </div> }
          
         <div className="put">
-            <img className='ji'src={email_icom} alt=""/>
+            <img className='ji'src={'https://img.icons8.com/?size=30&id=ZkD_s0Lm8ym1&format=png'} alt=""/>
             <input className="put" type="email" placeholder="Email Id"/>
         </div>
 
@@ -43,7 +43,7 @@ function Login(){
 
 
         <div className="put">
-            <img className='ji' src={pass_icon} alt=""/>
+            <img className='ji' src={'https://img.icons8.com/?size=30&id=eJnNkz9k3Xpg&format=png'} alt=""/>
             <input className="put" type="password" placeholder="Password"/>
         </div>  
         </div>

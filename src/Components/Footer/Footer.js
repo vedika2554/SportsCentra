@@ -32,7 +32,7 @@ function Footer(){
   	 			<h4>About Us</h4>
   	 			<ul>
   	 				<li><a href="#">Our Store</a></li>
-  	 				<li><a href="#">About us</a></li>
+  	 				<li><a href="/About">About us</a></li>
   	 				<li><a href="#">Contact Us</a></li>
   	 				<li><a href="#">Team Member</a></li>
   	 				<li><a href="#">payment options</a></li>
@@ -41,7 +41,7 @@ function Footer(){
   	 		<div className="footer-col">
   	 			<h4>Help</h4>
   	 			<ul>
-  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="/Faq">FAQ</a></li>
   	 				<li><a href="#">Terms & Condition</a></li>
   	 				<li><a href="#">Privacy Policy</a></li>
   	 				

@@ -154,7 +154,7 @@ export default function Home()
               <div className='container'>
 
 <div className='c1'>
-   <img className='cri'src={imgchess}/>
+  <Link to='/Faq' ><img className='cri'src={imgchess}/></Link>
    <h1 className='spga'>Chess</h1>
 </div>
 

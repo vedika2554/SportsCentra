@@ -20,7 +20,7 @@ import Football from './Views/Football/Football';
 import Swimming from './Views/Swimming/Swimming';
 
 import News from './Views/News/News';
-
+import Faq from './Views/Faq/Faq'
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -85,6 +85,10 @@ const router = createBrowserRouter([
   {
     path: '/Swimming',
     element:<Swimming/>
+  },
+  {
+    path: '/Faq',
+    element:<Faq/>
   }
   
 ])

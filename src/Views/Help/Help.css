@@ -5,6 +5,19 @@
     margin-right: 20px;
     text-align: justify;
 }
+.ann1{
+    margin-top: 20px;
+    color: cornflowerblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    background-color:brown ;
+  
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
 .fri{
     display: block;
     margin-left: auto;
@@ -18,40 +31,17 @@
     margin-right: auto;
     height: 100px;
 }
-.faq{
-    margin-top: 160px;
-    text-align: center;
-  
-    color: brown;
-}
-.qjl{
-    margin-left: 20px;
-    margin-right: 20px;
-    color: cornflowerblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.mkl{
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color:  #1a0e00;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.ans{
-    background-color: bisque;
-    margin-top: 20px;
-   width: 600px;
-    padding: 10px;
-    border-radius: 20px;
-}
+
 .po{
     background-color: #1a0e00;
-    height:290vh
+    height:130vh
 }
-.qaf{
-    display: flex;;
+
+.more{
+    margin-top: 150px;
+    display: flex;
     justify-content: space-evenly;
-   margin-top: 20px;
-    
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 70px;
 }
