@@ -45,6 +45,7 @@ let name_6='Anuj';
         <div className="row">
 <div className="col-md-12 text-center">
   <h2 className="section-title">
+        <div className="camp"> Our Contributors</div>
     
   </h2>
   
@@ -57,8 +58,8 @@ let name_6='Anuj';
         <h3> {name_1}</h3>
         <div className="team-info">
 
-        <li>No.354356</li>
-        E-mail:@gmail.com
+        <li>📞:965354356</li>
+       E-Mail ✉️ : Vedika@gmail.com
      <ul className="team-icon">
 
         <a href="https://github.l" className="twitter">
@@ -88,8 +89,8 @@ let name_6='Anuj';
         
         <div className="team-info">
    
-        <li>No.354356</li>
-        E-mail:2@gmail.com
+        <li> 📞: 91235678533</li>
+        E-mail ✉️:piyush2@gmail.com
      <ul className="team-icon">
 
         <a href="https://r.search.yahoo.com/_ylt=AwrKCXt.EihlYjEQtae7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153791/RO=10/RU=https%3a%2f%2ftwitter.com%2f%3flang%3den-in/RK=2/RS=YTOSqSaheLX_IaM05nXHyhZu6DQ-" className="twitter">
@@ -116,8 +117,8 @@ let name_6='Anuj';
         <div className="team-info">
         
 
-        <li>No.354356</li>
-        E-mail:22@gmail.com
+        <li>📞: 9645354356</li>
+        E-mail ✉️ :kashish@gmail.com
         
 
      <ul className="team-icon">
@@ -145,8 +146,8 @@ let name_6='Anuj';
         <h3> {name_4}</h3>
         <div className="team-info">
       
-        <li>No.354356</li>
-        E-mail:@gmail.com
+        <li> 📞 .9865354356</li>
+        E-mail ✉️ :yash@gmail.com
      <ul className="team-icon">
 
         <a href="https://" className="twitter">
@@ -172,8 +173,8 @@ let name_6='Anuj';
         <h3> {name_5}</h3>
         <div className="team-info">
         
-        <li>No.354356</li>
-        E-mail:@gmail.com
+        <li>📞.9765354356</li>
+        E-mail ✉️ : bhairavi@gmail.com
      <ul className="team-icon">
 
         <a href="https://git" className="twitter">
@@ -201,8 +202,8 @@ let name_6='Anuj';
         
         
 
-        <li>No.341154</li>
-        <li>E.mail:@gmail.com</li>
+        <li> 📞 :965341154</li>
+        <li>E.mail ✉️:anuj@gmail.com</li>
      <ul className="team-icon">
 
         <a href="https://r.search.yahoo.com/_ylt=AwrKCXt.EihlYjEQtae7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1697153791/RO=10/RU=https%3a%2f%2ftwitter.com%2f%3flang%3den-in/RK=2/RS=YTOSqSaheLX_IaM05nXHyhZu6DQ-" className="twitter">

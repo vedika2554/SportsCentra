@@ -121,7 +121,7 @@ import './../Hockey/hocky.css'
 <div className='c1'>
    <img className='tri'src={"https://m.media-amazon.com/images/I/61nVDoij9fL._SX679_.jpg"}/>
   <h1 className='spga'>Hockey Knee Shoes</h1>
-  <span className='que'>Prize : ₹716 <del className='del'> M.R.P. : ₹1,299</del></span> <p  className='sav'>Save upto 40%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+  <span className='que'>Prize : ₹716 <del className='del'> M.R.P. : ₹1,299</del></span> <p  className='sav'>Save upto 40z  %<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
   <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
