@@ -50,8 +50,10 @@ export default function Home()
             </div>
 
             <div className='c1'>
-               <img className='fot'src={imgFootball}/>
-               <h1 className='spga'>Football</h1>
+
+                   <Link to='/Football'> <img className='fot'src={imgFootball}/></Link>
+               <h1 className='spga'><Link to='/Football'className='r1'>Football</Link></h1>
+            
             </div>
 
              <div className='c1'>
@@ -99,20 +101,25 @@ export default function Home()
             </div>
 
              <div className='c1'>
-               <img className='fot'src={imgtennis}/>
-               <h1 className='spga'>Tennis</h1>
+             <Link to='/Tennis'>   <img className='fot'src={imgtennis}/></Link>
+               <h1 className='spga'><Link to='/Tennis'className='r1'>Tennis</Link></h1>
             </div> 
               </div>
               <div className='container'>
 
 <div className='c1'>
-   <img className='fot'src={imgswim}/>
-   <h1 className='spga'>Swimming</h1>
+ <Link to='/Swimming' ><img className='fot'src={imgswim}/></Link>
+   <h1 className='spga'><Link to='/Swimming' className='r1'>Swimming</Link></h1>
 </div>
 
 <div className='c1'>
+
 <Link to='/Cycling'> <img className='fot1'src={imgcycle}/></Link>
    <h1 className='spga'><Link to='/Sketing'className='r1'>Cycling</Link></h1>
+     
+  <Link to='/Teammember'> <img className='fot'src={imgcycle}/></Link>
+   <h1 className='spga'><Link to='/Teammember'className='r1'>Teammmber</Link></h1>
+
 </div>
 
  <div className='c1'>
@@ -136,12 +143,16 @@ export default function Home()
 
             <div className='c1'>
             <Link to='/Carrom'>   <img className='fot'src={imgcarrom}/></Link>
-              <h1 className='spga'><Link to='Carrom' className='r1'>Carrom</Link></h1>
+            <Link to='/Carrom'>   <img className='fot'src={imgcarrom}/></Link>
+              <h1 className='spga'><Link to='/Carrom' className='r1'>Carrom</Link></h1>
             </div>
 
             <div className='c1'>
-               <img className='fot'src={imgludo}/>
+            <Link to='Teammember'>   <img className='fot'src={imgcarrom}/></Link>
+            <Link to='/Teamember'>   <img className='fot'src={imgcarrom}/></Link>
+            
                <h1 className='spga'>Ludo</h1>
+
             </div>
 
              <div className='c1'>
@@ -166,6 +177,8 @@ export default function Home()
    <h1 className='spga'>Checkers</h1>
 </div> 
   </div>
+
+
 
 
 

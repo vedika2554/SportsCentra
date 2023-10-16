@@ -14,7 +14,21 @@ import Cricket from './Views/Cricket/Cricket';
 import Carrom from './Views/Carrom/Carrom';
 import Business from './Views/Business/Business';
 import Sketing from './Views/Sketing/Sketing';
+
 import Cycling from './Views/Cycling/Cycling';
+
+import Tennis from './Views/Tennis/Tennis';
+
+import Football from './Views/Football/Football';
+import Swimming from './Views/Swimming/Swimming';
+
+import Teammember from './Views/Teammember/Teammember';
+
+
+import News from './Views/News/News';
+
+
+
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -62,12 +76,35 @@ const router = createBrowserRouter([
     element: <Business/>
   },
   {
+
     path: '/Cycling',
     element: <Cycling/>
   },
 
 
-  
+    path: '/tennis',
+    element: <Tennis/>
+  },
+  {
+
+
+    path: '/Football',
+    element: <Football/>
+  },
+  {
+    path: '/News',
+    element: <News/>
+
+  },
+
+  {
+    path: '/Swimming',
+    element:<Swimming/>
+  },
+  {
+    path:'/Teammember',
+    element:<Teammember/>
+  }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -121,7 +121,7 @@ import './../Hockey/hocky.css'
 <div className='c1'>
    <img className='tri'src={"https://m.media-amazon.com/images/I/61nVDoij9fL._SX679_.jpg"}/>
   <h1 className='spga'>Hockey Knee Shoes</h1>
-  <span className='que'>Prize : ₹716 <del className='del'> M.R.P. : ₹1,299</del></span> <p  className='sav'>Save upto 45%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+  <span className='que'>Prize : ₹716 <del className='del'> M.R.P. : ₹1,299</del></span> <p  className='sav'>Save upto 40z  %<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
   <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -133,7 +133,7 @@ import './../Hockey/hocky.css'
 <div className='c1'>
    <img className='tri'src={"https://m.media-amazon.com/images/I/61UJ3XSQtyL._UX569_.jpg"}/>
    <h1 className='spga'>Hockey pants</h1>
-   <span className='que'>Prize : ₹27,37<del className='del'> M.R.P. : ₹3,011</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+   <span className='que'>Prize : ₹2,37<del className='del'> M.R.P. : ₹3,11</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
    <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -166,12 +166,12 @@ import './../Hockey/hocky.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+             </div><p><button  className='tata'>Buy now-</button></p></div>
 
 <div className='c1'>
 <img className='fot'src={"https://m.media-amazon.com/images/I/31haQsj26tL._SY300_SX300_QL70_FMwebp_.jpg"}/>
 <h1 className='spga'>Hockey head gear</h1>
-<span className='que'>Prize : ₹2,160 <del className='del'> M.R.P. : ₹3,240</del></span><p  className='sav'>Save upto 33%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+<span className='que'>Prize : ₹2,160 <del className='del'> M.R.P. : ₹3,260</del></span><p  className='sav'>Save upto 33%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
 <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -201,7 +201,7 @@ import './../Hockey/hocky.css'
 <div className='c1'>
    <img className='tri'src={"https://m.media-amazon.com/images/I/81ITl77Lu6L._SX522_.jpg"}/>
   <h1 className='spga'>Hockey Net</h1>
-  <span className='que'>Prize : ₹7,108 <del className='del'> M.R.P. : ₹10,156</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+  <span className='que'>Prize : ₹7,108 <del className='del'> M.R.P. : ₹1,156</del></span><p  className='sav'>Save upto 35%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
   <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
@@ -213,7 +213,7 @@ import './../Hockey/hocky.css'
 <div className='c1'>
    <img className='tri'src={"https://m.media-amazon.com/images/I/61M4ip8U+kL._AC_UL480_FMwebp_QL65_.jpg"}/>
    <h1 className='spga'>Hockey Stick blade</h1>
-   <span className='que'>Prize : ₹14,850 <del className='del'> M.R.P. : ₹21,219</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
+   <span className='que'>Prize : ₹14,850 <del className='del'> M.R.P. : ₹2,219</del></span><p  className='sav'>Save upto 30%<button className='incre'onClick={inc}>+</button>{count}<button className='decre'onClick={dec}>-</button></p>
    <div className='star'>
              <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>

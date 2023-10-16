@@ -1,0 +1,54 @@
+.nopo{
+    
+    background-color: 	 #1a0e00;
+    height: 160vh;
+}
+.car1{
+    position: relative;
+    margin-top: 210px;
+    margin-left: 5px;
+    background-color: brown;
+    width:350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+.tt2{
+    position: relative;
+    top: 80px;
+    color: bisque;
+    text-align: center;
+}
+.rcri{
+    position: absolute;
+top: -160px;
+left: 80px;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+}
+.car2{
+    position: relative;
+    margin-top: 240px;
+    margin-left: 5px;
+    background-color: brown;
+    width:350px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+.ou-se{
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-left: 20px;
+    color: bisque;
+    font-size: 25px;
+}
+.mol{
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
