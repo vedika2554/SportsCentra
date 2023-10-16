@@ -1,8 +1,8 @@
-<<<<<<< HEAD
-=======
+
 import Navbar from './../../Components/Navbar/Navbar'
 import Footer from './../../Components/Footer/Footer'
 import './../About/About.css'
+import { Link } from 'react-router-dom'
 export default function About(){
     return(
         <>
@@ -34,8 +34,8 @@ export default function About(){
            
            </div>
            <div className='c1'>
-              <img className='fri'src={"https://cdn-icons-png.flaticon.com/128/417/417782.png"}/>
-              <h1 className='mol'>Team members</h1>
+           <Link to='/Teammember' > <img className='fri'src={"https://cdn-icons-png.flaticon.com/128/417/417782.png"}/></Link>
+          <Link to='/Teammember'className='ril' ><h1 className='mol'>Team members</h1></Link> 
              <h2 className='ann'>Connect with our team for 24 hours support and give suggesion</h2>
           
            
@@ -56,4 +56,4 @@ export default function About(){
           </>
     )
 }
->>>>>>> 6441fb500a9dc70ee41ae25da45fe625948a04a8
+

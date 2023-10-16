@@ -60,7 +60,7 @@ export default function Help(){
 <div className='more'>
 <div className='cmo'>
            
-           <h2 className='ann1'>More info =></h2>
+           <h2 className='ann1'>More info</h2>
         
          
          </div>

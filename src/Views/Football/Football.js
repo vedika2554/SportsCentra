@@ -9,7 +9,7 @@ import img5 from './../../Components/Image/images/shin guard.jpg'
 import img6 from './../../Components/Image/images/shoes.jpg'
 import img7 from './../../Components/Image/images/helmet.jpg'
 import img8 from './../../Components/Image/images/tool lit.jpg'
-import img9  from './../../Components/Image/images/stress ball.jpg'
+
 import img10 from './../../Components/Image/images/nets.jpg'
 import img11 from './../../Components/Image/images/gloves.jpg'
 import img12  from './../../Components/Image/images/rings.jpg'

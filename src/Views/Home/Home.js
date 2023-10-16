@@ -113,8 +113,8 @@ export default function Home()
 </div>
 
 <div className='c1'>
-  <Link to='/Teammember'> <img className='fot'src={imgcycle}/></Link>
-   <h1 className='spga'><Link to='/Teammember'className='r1'>Teammmber</Link></h1>
+   <img className='fot1'src={imgcycle}/>
+   <h1 className='spga'>Cycling</h1>
 </div>
 
  <div className='c1'>
@@ -138,16 +138,12 @@ export default function Home()
 
             <div className='c1'>
             <Link to='/Carrom'>   <img className='fot'src={imgcarrom}/></Link>
-            <Link to='/Carrom'>   <img className='fot'src={imgcarrom}/></Link>
               <h1 className='spga'><Link to='/Carrom' className='r1'>Carrom</Link></h1>
             </div>
 
             <div className='c1'>
-            <Link to='Teammember'>   <img className='fot'src={imgcarrom}/></Link>
-            <Link to='/Teamember'>   <img className='fot'src={imgcarrom}/></Link>
-            
+               <img className='fot'src={imgludo}/>
                <h1 className='spga'>Ludo</h1>
-
             </div>
 
              <div className='c1'>
@@ -158,7 +154,7 @@ export default function Home()
               <div className='container'>
 
 <div className='c1'>
-  <Link to='/Faq' ><img className='cri'src={imgchess}/></Link>
+<img className='cri'src={imgchess}/>
    <h1 className='spga'>Chess</h1>
 </div>
 
