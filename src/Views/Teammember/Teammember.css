@@ -1,0 +1,105 @@
+.nopo{
+    
+    background-color: 	 #1a0e00;
+    height: 160vh;
+}
+
+.mol{
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.symbol{
+    margin: right 130px;
+    display: inline-block;
+    padding:8px 7px;
+    width:35px;
+    height:35px;
+    font-size:18px;
+    line-height:18px;
+    background-color: #fff;
+    border-radius: 50%;}
+    .section-white{
+        background:none;
+        padding:70px 0;
+        
+      }
+      .team-item{
+        justify-content: space-between;
+        background:#c3dbf3;
+        text-align: center;
+        margin:20px 0;
+        padding:50px 20px 40px 20px;
+        border-radius: 8px 8px;
+        width: 350px;
+        margin-left: 80px;
+        margin-bottom: 50px;
+      }
+      
+      .team-item:hover{
+        background-color: rgb(168, 168, 184);
+        color:#fff;
+      }
+      .team-iteam h3{
+       margin:20px 0 1px;
+       color:#454545;
+       font-size:18px;
+       
+       
+      }
+       
+      .team-iteam:hover h3{
+        color:#ddd;
+      }
+      .team-info{
+        display:block;
+        margin-bottom: 10px;
+      }
+      .team-info p{
+        color:#acacac;
+        font-style:italic;
+      }
+     
+      
+      .team-img{
+        width:150px;
+        height: 150px;
+        padding:6px 5px;
+        background-color: #dedede;
+      border-radius: 50%;
+    
+      }
+      
+      ul.team-icon{
+        margin-top:5px ;
+      
+      }
+      ul .team-icon li{
+        display:inline-block;
+        margin:0 3px;
+      }
+      .symbol{
+        margin: right 130px;
+        display: inline-block;
+        padding:8px 7px;
+        width:35px;
+        height:35px;
+        font-size:18px;
+        line-height:18px;
+        background-color: #fff;
+        border-radius: 50%;
+        
+      }
+     
+      .team-icon li a:hover{
+      color: #dedede;
+      }
+    
+      .section-title{
+        font-size:50px;
+      }
+    
+    

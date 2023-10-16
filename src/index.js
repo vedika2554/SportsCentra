@@ -17,6 +17,7 @@ import Sketing from './Views/Sketing/Sketing';
 import Tennis from './Views/Tennis/Tennis';
 import Football from './Views/Football/Football';
 import Swimming from './Views/Swimming/Swimming';
+import Teammember from './Views/Teammember/Teammember';
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -75,8 +76,11 @@ const router = createBrowserRouter([
   {
     path: '/Swimming',
     element:<Swimming/>
+  },
+  {
+    path:'/Teammember',
+    element:<Teammember/>
   }
-  
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
