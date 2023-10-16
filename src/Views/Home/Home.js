@@ -113,8 +113,13 @@ export default function Home()
 </div>
 
 <div className='c1'>
+
+<Link to='/Cycling'> <img className='fot1'src={imgcycle}/></Link>
+   <h1 className='spga'><Link to='/Sketing'className='r1'>Cycling</Link></h1>
+     
   <Link to='/Teammember'> <img className='fot'src={imgcycle}/></Link>
    <h1 className='spga'><Link to='/Teammember'className='r1'>Teammmber</Link></h1>
+
 </div>
 
  <div className='c1'>
