@@ -111,8 +111,8 @@ export default function Home()
 </div>
 
 <div className='c1'>
-   <img className='fot1'src={imgcycle}/>
-   <h1 className='spga'>Cycling</h1>
+<Link to='/Cycling'> <img className='fot1'src={imgcycle}/></Link>
+   <h1 className='spga'><Link to='/Sketing'className='r1'>Cycling</Link></h1>
 </div>
 
  <div className='c1'>
