@@ -24,8 +24,8 @@ function Footer(){
   	 				<li><a href="#">Find New</a></li>
   	 				<li><a href="#">Nearby Store</a></li>
   	 				<li><a href="#">Sport Gallary</a></li>
-  	 				<li><a href="#">Sport News</a></li>
-  	 				<li><a href="#">Sport Equipment</a></li>
+  	 				<li><a href="/News">Sport News</a></li>
+  	 				<li><a href="/SPorts">Sport Equipment</a></li>
   	 			</ul>
   	 		</div>
 			   <div className="footer-col">
