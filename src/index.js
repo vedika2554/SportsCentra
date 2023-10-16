@@ -18,9 +18,13 @@ import Tennis from './Views/Tennis/Tennis';
 
 import Football from './Views/Football/Football';
 import Swimming from './Views/Swimming/Swimming';
+<<<<<<< HEAD
+import Teammember from './Views/Teammember/Teammember';
+=======
 
 import News from './Views/News/News';
 
+>>>>>>> 6441fb500a9dc70ee41ae25da45fe625948a04a8
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -85,8 +89,11 @@ const router = createBrowserRouter([
   {
     path: '/Swimming',
     element:<Swimming/>
+  },
+  {
+    path:'/Teammember',
+    element:<Teammember/>
   }
-  
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
