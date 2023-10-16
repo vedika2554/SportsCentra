@@ -29,7 +29,7 @@
       }
       .team-item{
         justify-content: space-between;
-        background:#c3dbf3;
+        background:burlywood;
         text-align: center;
         margin:20px 0;
         padding:50px 20px 40px 20px;
@@ -37,6 +37,13 @@
         width: 350px;
         margin-left: 80px;
         margin-bottom: 50px;
+      }
+      .camp{
+        color:black;
+        font-size: 75px;
+    
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-display:initial;
       }
       
       .team-item:hover{
@@ -74,7 +81,7 @@
       }
       
       ul.team-icon{
-        margin-top:5px ;
+        margin-top:10px ;
       
       }
       ul .team-icon li{
