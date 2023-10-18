@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./../../Components/Navbar/Navbar";
-import Footer from "./../../Components/Footer/Footer";
+import Navbar from "./../../Component/Navbar/Navbar";
+import Footer from "./../../Component/Footer/Footer";
 import "./Login.css";
 import { useState } from "react";
-import user_icon from './../../Components/Image/person.png';
-import email_icom from './../../Components/Image/email.png';
-import pass_icon from './../../Components/Image/password.png';
+import user_icon from './../../Component/Image/person.png';
+import email_icom from './../../Component/Image/email.png';
+import pass_icon from './../../Component/Image/password.png';
 import { Link } from "react-router-dom";
 
 
@@ -30,7 +30,7 @@ function Login(){
         
         <div className="puts">
         {action==="Login"?<div></div>:<div className="put">
-            <img className='ji'src={'https://img.icons8.com/?size=30&id=KGd3l-Cw0Eqn&format=png'} alt=""/>
+            <img className='ji'src={'https://img.icons8.com/?size=30&id=nuMODtuVLj4A&format=png'} alt=""/>
             <input className="put" type="text" placeholder="Name"/>
         </div> }
          

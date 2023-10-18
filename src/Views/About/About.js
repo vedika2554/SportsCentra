@@ -1,6 +1,5 @@
-
-import Navbar from './../../Components/Navbar/Navbar'
-import Footer from './../../Components/Footer/Footer'
+import Navbar from './../../Component/Navbar/Navbar'
+import Footer from './../../Component/Footer/Footer'
 import './../About/About.css'
 import { Link } from 'react-router-dom'
 export default function About(){
@@ -56,4 +55,3 @@ export default function About(){
           </>
     )
 }
-

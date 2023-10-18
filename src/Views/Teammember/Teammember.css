@@ -1,0 +1,22 @@
+.opo{
+    
+    background-color: 	 #1a0e00;
+    height: 110vh;
+}
+.ril{
+    text-decoration: none;
+}
+.fri{
+    border-radius: 50%;
+}
+.ann{
+    text-align: center;
+}
+.c1{
+    
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

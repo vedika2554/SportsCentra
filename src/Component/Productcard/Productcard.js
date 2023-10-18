@@ -1,5 +1,5 @@
 import './Productcard.css'
-import imgsport from  './../Image/sporty-dla-poczatkujacych.jpg'
+import imgsport from  './../Image/sporty-dla-poczatkujacych (1).jpg'
 export default function Productcard()
 {
   return(

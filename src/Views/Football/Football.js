@@ -1,18 +1,18 @@
-import Navbar from './../../Components/Navbar/Navbar'
-import Footer from './../../Components/Footer/Footer'
+import Navbar from './../../Component/Navbar/Navbar'
+import Footer from './../../Component/Footer/Footer'
 import { useState } from 'react'
 import "./Football.css"
 
-import img2 from './../../Components/Image/images/ball.jpg'
-import img3 from './../../Components/Image/images/cloth.jpg'
-import img5 from './../../Components/Image/images/shin guard.jpg'
-import img6 from './../../Components/Image/images/shoes.jpg'
-import img7 from './../../Components/Image/images/helmet.jpg'
-import img8 from './../../Components/Image/images/tool lit.jpg'
+import img2 from './../../Component/Image/Images/ball.jpg'
+import img3 from './../../Component/Image/Images/cloth.jpg'
+import img5 from './../../Component/Image/Images/shin guard.jpg'
+import img6 from './../../Component/Image/Images/shoes.jpg'
+import img7 from './../../Component/Image/Images/helmet.jpg'
+import img8 from './../../Component/Image/Images/tool lit.jpg'
 
-import img10 from './../../Components/Image/images/nets.jpg'
-import img11 from './../../Components/Image/images/gloves.jpg'
-import img12  from './../../Components/Image/images/rings.jpg'
+import img10 from './../../Component/Image/Images/nets.jpg'
+import img11 from './../../Component/Image/Images/gloves.jpg'
+import img12  from './../../Component/Image/Images/rings.jpg'
 
 
 function Football (){

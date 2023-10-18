@@ -1,85 +1,85 @@
 .bt{
-  background-color:  #1a0e00;
-  height: 415vh;
-}
-.tri{
-  display: block;
-  height: 250px;
-  margin-left: auto;
-  margin-right: 80px;
-  margin-top: 7px;
-  border-radius: 20px;
+    background-color:  #1a0e00;
+    height: 415vh;
   }
-  .que{
-      margin-top: 10px;
-      font-size: 20px;
-      display: block;
-      text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color:  #1a0e00
-  }
-  .sav{
-      font-size: 20px;
-      margin-left: 80px;
-      color: brown;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .incre{
-      margin-top: 10px;
-      margin-left: 25px;
-      margin-right: 5px;
-      font-size: 25px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      padding-top: 3px;
-    
-      padding: 5px;
-      background-color: cornflowerblue;
-      color: bisque;
-
-  }
-  .decre{
-      font-size: 25px;
-      padding-top: 3px;
-      margin-left: 5px;
-      padding-top: 3px;
-      padding: 5px;
-      background-color: cornflowerblue;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: bisque;
-
-  }
-  .star{
-      margin-top: 10px;
-      text-align: center;
-      color:  #1a0e00
-     
-  }
-  .tata{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 10px;
-      font-size: 25px;
-      padding-left: 15px;
-      padding-right: 15px;
-      width: 70%;
-      padding: 10px;
-      border-radius: 30px;
-      background-color: cornflowerblue;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: bisque;
-  }
-  .del{
-margin-left: 10px;
-font-size: 15px;
-color:  #1a0e00
-
-  }
-  .fa-solid {
-      margin-left: 15px;
-  }
- hr.hre{
-      position: relative;
-      top:85px;
+  .tri{
+    display: block;
+    height: 250px;
+    margin-left: auto;
+    margin-right: 80px;
+    margin-top: 7px;
+    border-radius: 20px;
+    }
+    .que{
+        margin-top: 10px;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:  #1a0e00
+    }
+    .sav{
+        font-size: 20px;
+        margin-left: 80px;
+        color: brown;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .incre{
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 5px;
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-top: 3px;
       
-  }
+        padding: 5px;
+        background-color: cornflowerblue;
+        color: bisque;
+  
+    }
+    .decre{
+        font-size: 25px;
+        padding-top: 3px;
+        margin-left: 5px;
+        padding-top: 3px;
+        padding: 5px;
+        background-color: cornflowerblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: bisque;
+  
+    }
+    .star{
+        margin-top: 10px;
+        text-align: center;
+        color:  #1a0e00
+       
+    }
+    .tata{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 70%;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: cornflowerblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: bisque;
+    }
+    .del{
+  margin-left: 10px;
+  font-size: 15px;
+  color:  #1a0e00
+  
+    }
+    .fa-solid {
+        margin-left: 15px;
+    }
+   hr.hre{
+        position: relative;
+        top:85px;
+        
+    }

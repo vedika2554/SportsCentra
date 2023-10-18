@@ -1,34 +1,34 @@
 import './Home.css'
-import imgcricket from './../../Components/Image/cricket.jpg'
-import imgFootball from './../../Components/Image/football.jpg'
-import imghockey from './../../Components/Image/hockey.jpg'
-import imgvollyball from './../../Components/Image/vollyball.jpg'
-import imgbaseball from './../../Components/Image/baseball.jpeg'
-import imgbasketball from './../../Components/Image/basketball.jpg'
-import imgbadminton from './../../Components/Image/badminton.jpg'
-import imgsketing from './../../Components/Image/sketing.jpg'
-import imgtennis from './../../Components/Image/tennis.jpg'
-import imgswim from './../../Components/Image/swimming.jpg'
-import imgcycle from './../../Components/Image/cycle.jpeg'
-import imgboxing from './../../Components/Image/boxing.jpg'
-import imgcarrom from './../../Components/Image/carrom.jpg'
-import imgludo from './../../Components/Image/ludo.jpg'
-import imgbusiness from './../../Components/Image/bisness.jpg'
-import imgchess from './../../Components/Image/chess.jpeg'
-import imgsneck from './../../Components/Image/sneck.jpg'
-import imgcheck from './../../Components/Image/checkers.jpg'
-import imgshop from './../../Components/Image/shopping-cart.png'
-import imgdelivery from './../../Components/Image/free-delivery.png'
-import imgchoice from './../../Components/Image/choice.png'
-import imgreturn from './../../Components/Image/return (1).png'
-import imghour from './../../Components/Image/hours.png'
-import imgpay from './../../Components/Image/payment.png'
+import imgcricket from './../../Component/Image/cricket.jpg'
+import imgFootball from './../../Component/Image/football.jpg'
+import imghockey from './../../Component/Image/hockey.jpg'
+import imgvollyball from './../../Component/Image/vollyball.jpg'
+import imgbaseball from './../../Component/Image/baseball.jpeg'
+import imgbasketball from './../../Component/Image/basketball.jpg'
+import imgbadminton from './../../Component/Image/badminton.jpg'
+import imgsketing from './../../Component/Image/sketing.jpg'
+import imgtennis from './../../Component/Image/tennis.jpg'
+import imgswim from './../../Component/Image/swimming.jpg'
+import imgcycle from './../../Component/Image/cycle.jpeg'
+import imgboxing from './../../Component/Image/boxing.jpg'
+import imgcarrom from './../../Component/Image/carrom.jpg'
+import imgludo from './../../Component/Image/ludo.jpg'
+import imgbusiness from './../../Component/Image/bisness.jpg'
+import imgchess from './../../Component/Image/chess.jpeg'
+import imgsneck from './../../Component/Image/sneck.jpg'
+import imgcheck from './../../Component/Image/checkers.jpg'
+import imgshop from './../../Component/Image/shopping-cart.png'
+import imgdelivery from './../../Component/Image/free-delivery.png'
+import imgchoice from './../../Component/Image/choice.png'
+import imgreturn from './../../Component/Image/return.png'
+import imghour from './../../Component/Image/hours.png'
+import imgpay from './../../Component/Image/payment.png'
 
 
 
-import Navbar from './../../Components/Navbar/Navbar'
-import Footer from './../../Components/Footer/Footer'
-import Productcard from './../../Components/Productcard/Productcard'
+import Navbar from './../../Component/Navbar/Navbar'
+import Footer from './../../Component/Footer/Footer'
+import Productcard from './../../Component/Productcard/Productcard'
 import { Link } from 'react-router-dom'
 
 export default function Home()
@@ -113,8 +113,8 @@ export default function Home()
 </div>
 
 <div className='c1'>
-   <img className='fot1'src={imgcycle}/>
-   <h1 className='spga'>Cycling</h1>
+  <Link to='/Cycling'><img className='fot1'src={imgcycle}/></Link> 
+  <h1 className='spga'><Link to='/Cycling' className='r1'>Cycling</Link></h1>
 </div>
 
  <div className='c1'>
@@ -154,7 +154,7 @@ export default function Home()
               <div className='container'>
 
 <div className='c1'>
-<img className='cri'src={imgchess}/>
+   <img className='cri'src={imgchess}/>
    <h1 className='spga'>Chess</h1>
 </div>
 

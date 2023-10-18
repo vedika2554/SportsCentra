@@ -1,5 +1,5 @@
-import Navbar from './../../Components/Navbar/Navbar'
-import Footer from './../../Components/Footer/Footer'
+import Navbar from './../../Component/Navbar/Navbar'
+import Footer from './../../Component/Footer/Footer'
 import { Link } from 'react-router-dom'
 import './../Help/Help.css'
 export default function Help(){

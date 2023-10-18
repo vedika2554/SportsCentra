@@ -1,5 +1,5 @@
-import Navbar from './../../Components/Navbar/Navbar'
-import Footer from './../../Components/Footer/Footer'
+import Navbar from './../../Component/Navbar/Navbar'
+import Footer from './../../Component/Footer/Footer'
 import { useState } from 'react'
 import './../Cricket/Cricket.css'
 
@@ -299,5 +299,3 @@ import './../Cricket/Cricket.css'
     )
  }
  export default Cricket
-
-

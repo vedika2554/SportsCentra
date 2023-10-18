@@ -2,25 +2,26 @@ import React from 'react';
 import './index.css'
 import ReactDOM from 'react-dom/client';
 import {  RouterProvider, createBrowserRouter} from 'react-router-dom'
-import Home from './Views/Home/Home'
-import Sports from './Views/Sports/Sports';
-import About  from './Views/About/About'
-import Help from './Views/Help/Help'
-import Ourservices from './Views/Ourservices/Ourservices'
-import Login from './Views/Login/Login'
-import Forgot from './Views/Forgot/Forgot';
-import Hockey from './Views/Hockey/Hockey';
-import Cricket from './Views/Cricket/Cricket';
-import Carrom from './Views/Carrom/Carrom';
-import Business from './Views/Business/Business';
-import Sketing from './Views/Sketing/Sketing';
-import Tennis from './Views/Tennis/Tennis';
+import Home from './views/Home/Home'
+import Sports from './views/Sports/Sports';
+import About  from './views/About/About'
+import Help from './views/Help/Help'
+import Ourservices from './views/Ourservices/Ourservices'
+import Login from './views/Login/Login'
+import Forgot from './views/Forgot/Forgot';
+import Hockey from './views/Hocky/Hocky';
+import Cricket from './views/Cricket/Cricket';
+import Carrom from './views/Carrom/Carrom';
+import Business from './views/Business/Business';
+import Sketing from './views/Sketing/Sketing';
+import Tennis from './views/Tennis/Tennis';
+import Teammember from './views/Teammember/Teammember';
+import Football from './views/Football/Football';
+import Swimming from './views/Swimming/Swimming';
+import Faq from './views/Faq/Faq';
 
-import Football from './Views/Football/Football';
-import Swimming from './Views/Swimming/Swimming';
+import News from './views/News/News';
 
-import News from './Views/News/News';
-import Faq from './Views/Faq/Faq'
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -81,14 +82,20 @@ const router = createBrowserRouter([
     element: <News/>
 
   },
+  {
+    path: '/Faq',
+    element: <Faq/>
+
+  },
+  {
+    path: '/Teammember',
+    element: <Teammember/>
+
+  },
 
   {
     path: '/Swimming',
     element:<Swimming/>
-  },
-  {
-    path: '/Faq',
-    element:<Faq/>
   }
   
 ])
@@ -98,3 +105,4 @@ root.render(
   <RouterProvider router={router}/>
   </>
 );
+

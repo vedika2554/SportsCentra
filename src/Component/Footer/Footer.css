@@ -12,7 +12,6 @@ body{
 	color: #1a0e00;
 }
 .container{
-	display: flex;
 	max-width: 1480px;
 	margin:auto;
 	
