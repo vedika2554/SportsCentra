@@ -19,7 +19,7 @@ import Teammember from './views/Teammember/Teammember';
 import Football from './views/Football/Football';
 import Swimming from './views/Swimming/Swimming';
 import Faq from './views/Faq/Faq';
-
+import Cycling from './views/Cycling/Cyling'
 import News from './views/News/News';
 
 const router = createBrowserRouter([
@@ -92,7 +92,11 @@ const router = createBrowserRouter([
     element: <Teammember/>
 
   },
+  {
+    path: '/Cycling',
+    element: <Cycling/>
 
+  },
   {
     path: '/Swimming',
     element:<Swimming/>
