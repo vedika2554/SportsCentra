@@ -37,7 +37,7 @@ import img12  from './../../Component/Image/Images/body.webp'
         <div className='bt'>
             
                       
-       <h1 className='tt1'>Hockey Equipment</h1>
+       <h1 className='tt1'>Swimming Equipment</h1>
        <hr className='hre'/>
    <div className='container1'>
 

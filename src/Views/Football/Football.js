@@ -34,7 +34,7 @@ function Football (){
         <div className='bt'>
             
                       
-       <h1 className='tt1'>Hockey Equipment</h1>
+       <h1 className='tt1'>Football Equipment</h1>
        <hr className='hre'/>
    <div className='container1'>
 

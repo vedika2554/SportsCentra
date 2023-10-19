@@ -20,7 +20,7 @@ export default function Help(){
            </div>
            <div className='c1'>
               <img className='fri'src={"https://cdn-icons-png.flaticon.com/128/7608/7608617.png?ga=GA1.1.738810621.1697097674&track=ais"}/>
-             <h2 className='ann'>memberbership, doubts, Subscriptions or any Communications problems</h2>
+             <h2 className='ann'>Memberbership, doubts, Subscriptions or any Communications problems</h2>
           
            
            </div>
