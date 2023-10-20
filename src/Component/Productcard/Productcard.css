@@ -82,11 +82,12 @@
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: cornflowerblue;
     color:  	 #ffe8cc;
     border-radius: 30px;
     border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn2
 {
@@ -96,11 +97,12 @@
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: cornflowerblue;
     color:  #ffe8cc;
     border-radius: 30px;
     border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .btn1:hover{
     cursor: pointer;

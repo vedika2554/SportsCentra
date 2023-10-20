@@ -11,18 +11,19 @@
 }
 .sspa{
     background-color: #1a0e00;
-    height:100vh;
+    height:120vh;
 }
 .user{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 60px;
     background-color: brown;
     font-size: 25px;
     text-align: center;
     border-radius: 30px;
-    padding: 5px;
+    padding: 10px;
+    border: none;
 }
 .user::placeholder{
     color: bisque;
@@ -31,34 +32,39 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 25px;
     background-color: cornflowerblue;
     border-radius: 30px;
     color: bisque;
-    padding: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    border: none;
+    padding: 15px;
+    padding-right: 23px;
+    padding-left: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .sen{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
     background-color: cornflowerblue;
     text-align: center;
     border-radius: 30px;
     color: bisque;
-    padding: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
+    border: none;
+    padding: 15px;
+    padding-right: 23px;
+    padding-left: 23px;
 }
 .ve{
     text-align: center;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nik{
     color: #1a0e00;
@@ -67,4 +73,25 @@
 .bonj{
     color: cornflowerblue;
    
+}
+hr.pli{
+position: relative;
+width: 290px;
+height: 7px;
+border-radius: 20px;
+background-color: cornflowerblue;
+left: 45px;
+top:15px;
+}
+.wrio{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: brown;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
 }

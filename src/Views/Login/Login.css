@@ -41,13 +41,16 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-left: -80px;
 }
 .put.put{
     display: flex;
     align-items: center;
     margin: auto;
-    width: 300px;
+    width: 200px;
     height: 50px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: brown;
     border-radius: 6px;
     border-radius: 60px;
@@ -75,10 +78,12 @@
     margin-top: 27px;
     color: #1a0e00;
     font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .forgot-password span{
     color: #1a0e00;
     cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .submit-container{
     display: flex;
@@ -90,17 +95,19 @@
     justify-content: center;
     align-items: center;
     width: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 59px;
     color: bisque;
     background: cornflowerblue;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     cursor: pointer;
 }
 .gray{
     background: cornflowerblue;
     color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .lop{
     text-decoration: none;

@@ -6,7 +6,7 @@ export default function About(){
     return(
         <>
         <Navbar/>
-        <div className='opo'>
+        <div className='rpo'>
 
 
 

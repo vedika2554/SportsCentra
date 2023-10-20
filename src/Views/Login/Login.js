@@ -3,9 +3,7 @@ import Navbar from "./../../Component/Navbar/Navbar";
 import Footer from "./../../Component/Footer/Footer";
 import "./Login.css";
 import { useState } from "react";
-import user_icon from './../../Component/Image/person.png';
-import email_icom from './../../Component/Image/email.png';
-import pass_icon from './../../Component/Image/password.png';
+
 import { Link } from "react-router-dom";
 
 

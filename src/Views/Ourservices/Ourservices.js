@@ -40,21 +40,21 @@ return(
         <div className='container1'>
 
 <div className='c1'>
-<Link to='/News'><img className='lri'src={"https://cdn-icons-png.flaticon.com/128/9335/9335852.png?ga=GA1.1.738810621.1697097674"}/></Link> 
+<Link to='/News'><img className='fri'src={"https://cdn-icons-png.flaticon.com/128/9335/9335852.png?ga=GA1.1.738810621.1697097674"}/></Link> 
             <h1 className='mol'><Link to='/News' className='ri1'>Sports news</Link></h1>
            <h2 className='ann'>Get the latest news , updates about sports and remain yourself updated</h2>
         
          
          </div>
          <div className='c1'>
-         <Link to='/Sports'>  <img className='lri'src={"https://cdn-icons-png.flaticon.com/128/1540/1540505.png"}/></Link> 
+         <Link to='/Sports'>  <img className='fri'src={"https://cdn-icons-png.flaticon.com/128/1540/1540505.png"}/></Link> 
             <h1 className='mol'><Link to='/Sports' className='ri1'>Sports equipment</Link></h1>
            <h2 className='ann'>Buy the different types of sports equipment and enjoy shopping</h2>
         
          
          </div>
          <div className='c1'>
-            <img className='lri'src={"https://cdn3.iconfinder.com/data/icons/ecommerce-color-4/512/e_-_Commerce_-_Blue_gray_Fill_-_Copy-17-64.png"}/>
+            <img className='fri'src={"https://cdn3.iconfinder.com/data/icons/ecommerce-color-4/512/e_-_Commerce_-_Blue_gray_Fill_-_Copy-17-64.png"}/>
             <h1 className='mol'>Special offers</h1>
            <h2 className='ann'>Get excited offers and deals on sports equipment and save your money</h2>
         

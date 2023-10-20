@@ -71,7 +71,7 @@ function Footer(){
 	   <hr/>
 
 <h2>Regestered office</h2>
-<p>404,Laxmi Heights, Above Lotus Multispeciality Hospital
+<p >404,Laxmi Heights, Above Lotus Multispeciality Hospital
   Manjari BK,Pune-412307. Person who may be contacted in case of any compliance related queries or grievances : Vedika Yadav (Vedika.y@Sportcentra.in)</p>
   <hr/>
 

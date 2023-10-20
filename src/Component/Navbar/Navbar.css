@@ -36,7 +36,7 @@
 
 .log{
     margin-top: 29px; 
-    margin-left: 50px;
+    margin-left: 40px;
     text-decoration: none;
     color: brown;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,9 +60,11 @@
     text-decoration: none;
     width: 140px;
     text-align: center;
-    font-size: 19px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 30px;
     background-color: brown;
+    border: none;
     
 }
 .b1{
@@ -72,10 +74,13 @@
     text-decoration: none;
    background-color: cornflowerblue;
    color:bisque ;
-   padding: 8px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
    border-radius: 30px;
-    font-size: 19px;
-  
+    font-size: 20px;
+  border: none;
 }
 .nav-menu:hover{
     text-decoration:underline;

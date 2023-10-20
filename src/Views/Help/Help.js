@@ -36,13 +36,13 @@ export default function Help(){
           <div className='container1'>
 
   <div className='c1'>
-              <img className='lri'src={"https://cdn-icons-png.flaticon.com/128/3262/3262338.png?ga=GA1.1.738810621.1697097674&track=ais"}/>
+              <img className='fri'src={"https://cdn-icons-png.flaticon.com/128/3262/3262338.png?ga=GA1.1.738810621.1697097674&track=ais"}/>
              <h2 className='ann'>Payment , charges or Gift card</h2>
           
            
            </div>
            <div className='c1'>
-              <img className='lri'src={"https://cdn-icons-png.flaticon.com/128/9672/9672086.png?ga=GA1.1.738810621.1697097674&track=ais"}/>
+              <img className='fri'src={"https://cdn-icons-png.flaticon.com/128/9672/9672086.png?ga=GA1.1.738810621.1697097674&track=ais"}/>
              <h2 className='ann'>Address , Security and Privacy</h2>
           
            

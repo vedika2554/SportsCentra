@@ -7,6 +7,8 @@
 .t1{
     text-align: center;
     color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
     margin-top: 130px;
 }
 .cri{
@@ -70,6 +72,8 @@ border-radius: 20px;
     text-align: center;
     color: bisque;
     margin-top: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
 
 }
 .c2{
@@ -97,19 +101,22 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;
 color: bisque;
 margin-top: 130px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .input{
 margin-left: 480px;
 margin-top: 40px;
 background-color: brown;
 text-align: center;
-padding: 5px;
+padding: 10px;
 font-size: 28px;
-border-radius: 20px;
+border-radius: 25px;
+border: none;
 
 }
 input::placeholder{
     color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .sub{
 margin-left: 50px;
@@ -119,8 +126,10 @@ background-color: cornflowerblue;
 padding: 10px;
 padding-right: 15px;
 padding-left: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: bisque;
 border-radius: 40px;
+border: none;
 }
 .c3{
     margin-top: 50px;
@@ -149,17 +158,20 @@ border-radius: 40px;
     }
     .t4{
         margin-left: 50px;
+        font-size: 20px;
         margin-right: 50px;
-        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: justify;
         color: cornflowerblue;
         margin-top: 20px;
         }
 
         .t5{
+            font-size: 33px;
             margin-top: 90px;
             text-align: center;
             color: brown;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
      
                                                                             

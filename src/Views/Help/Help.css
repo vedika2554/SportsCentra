@@ -2,6 +2,7 @@
     margin-top: 20px;
     color: cornflowerblue;
     margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 20px;
     text-align: justify;
 }
@@ -12,7 +13,7 @@
     margin-right: 20px;
     text-align: justify;
     background-color:brown ;
-  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -20,13 +21,6 @@
 }
 .fri{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100px;
-}
-.lri{
-    display: block;
-    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     height: 100px;
