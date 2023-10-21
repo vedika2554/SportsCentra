@@ -2,6 +2,7 @@ import Navbar from './../../Component/Navbar/Navbar'
 import Footer from './../../Component/Footer/Footer'
 import { useState } from 'react'
 import './../Cricket/Cricket.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -40,7 +41,7 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
              </div>
-             <p><button className='tata'>Buy now</button></p>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
            </div>
 
            <div className='c1'>
@@ -54,8 +55,10 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p> </div>
-
+           
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
              <div className='c1'>
   <img className='tri'src={"https://m.media-amazon.com/images/I/61PevyevsJL._AC_UL480_FMwebp_QL65_.jpg"}/>
@@ -67,7 +70,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 
 </div>
@@ -97,7 +102,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p>  </div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
              
 
 
@@ -120,8 +127,10 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
-
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
+            
 <div className='c1'>
   <img className='pri'src={"https://m.media-amazon.com/images/I/51nHQqvWnEL._AC_UL480_FMwebp_QL65_.jpg"}/>
   <h1 className='spga'>Batting pad</h1>
@@ -132,7 +141,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div> 
  
  </div>
 
@@ -156,7 +167,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
              <div className='c1'>
    <img className='fot1'src={"https://m.media-amazon.com/images/I/51B+p6IhC0L._AC_UL480_FMwebp_QL65_.jpg"}/>
@@ -168,7 +181,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 
 
@@ -185,7 +200,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
   </div>
   <div className='container1'>
 
@@ -199,7 +216,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img className='fot1'src={"https://m.media-amazon.com/images/I/81y1ZExqFKL._AC_UL480_FMwebp_QL65_.jpg"}/>
@@ -211,7 +230,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img className='fot'src={"https://m.media-amazon.com/images/I/710pNImAtXS._AC_UL480_QL65_.jpg"}/>
@@ -223,7 +244,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 </div>
 
@@ -241,8 +264,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
-
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 <div className='c1'>
    <img className='tri'src={"https://m.media-amazon.com/images/I/51ivChZqX4L._AC_UL480_FMwebp_QL65_.jpg"}/>
    <h1 className='spga'>Cricket mouth guard</h1>
@@ -253,7 +277,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
              <div className='c1'>
    <img className='tri'src={"https://m.media-amazon.com/images/I/817NWNZKiEL._AC_UL480_FMwebp_QL65_.jpg"}/>
    <h1 className='spga'>Cricket bag</h1>
@@ -264,8 +290,9 @@ import './../Cricket/Cricket.css'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
-
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 
 

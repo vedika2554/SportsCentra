@@ -2,14 +2,13 @@ import Navbar from './../../Component/Navbar/Navbar'
 import Footer from './../../Component/Footer/Footer'
 import { useState } from 'react'
 import "./Football.css"
-
+import { Link } from 'react-router-dom'
 import img2 from './../../Component/Image/Images/ball.jpg'
 import img3 from './../../Component/Image/Images/cloth.jpg'
 import img5 from './../../Component/Image/Images/shin guard.jpg'
 import img6 from './../../Component/Image/Images/shoes.jpg'
 import img7 from './../../Component/Image/Images/helmet.jpg'
 import img8 from './../../Component/Image/Images/tool lit.jpg'
-
 import img10 from './../../Component/Image/Images/nets.jpg'
 import img11 from './../../Component/Image/Images/gloves.jpg'
 import img12  from './../../Component/Image/Images/rings.jpg'
@@ -48,8 +47,8 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div>
-             <p><button className='tata'>Buy now</button></p>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
            </div>
 
            <div className='c1'>
@@ -63,7 +62,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p> </div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
             <div className='c1'>
             <img src={img12} className="cri" alt="pic"></img>
@@ -75,7 +76,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p>  </div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
              </div>
              <div className='container1'>
 
@@ -89,7 +92,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img src={img5} className="tri" alt="pic"></img>
@@ -101,7 +106,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img src={img11} className="tri" alt="wec"></img>
@@ -113,7 +120,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
  
  </div>
 
@@ -137,7 +146,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img src={img10} className="fot1" alt="pic"></img>
@@ -151,8 +162,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
-
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
  <div className='c1'>
 <img src={img7} className="fot" alt="pic"></img>
    
@@ -164,7 +176,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
   </div>
   <div className='container1'>
 
@@ -179,7 +193,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img src={'https://m.media-amazon.com/images/I/61Nw5HX6JRL._AC_UL480_FMwebp_QL65_.jpg'} className="tri" alt="pic"></img>
@@ -192,7 +208,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img src={img12} className="tri" alt="pic"></img>
@@ -205,7 +223,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 </div>
 
@@ -224,7 +244,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
   <img src={img5} className="cri" alt="pic"></img>
@@ -237,7 +259,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
  <div className='c1'>
   <img src={img3} className="fot1" alt="pic"></img>
@@ -250,7 +274,9 @@ function Football (){
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
   </div>
 
 

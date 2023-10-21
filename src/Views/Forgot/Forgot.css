@@ -7,7 +7,7 @@
     width: 400px;
     padding: 10px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 .sspa{
     background-color: #1a0e00;
@@ -72,6 +72,8 @@
 }
 .bonj{
     color: cornflowerblue;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    
 }
 hr.pli{

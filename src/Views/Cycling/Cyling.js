@@ -1,6 +1,6 @@
 import Navbar from './../../Component/Navbar/Navbar'
 import Footer from './../../Component/Footer/Footer'
-
+import { Link } from 'react-router-dom';
 import { useState } from 'react'
 
 
@@ -40,8 +40,8 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div>
-             <p><button className='tata'>Buy now</button></p>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
            </div>
 
            <div className='c1'>
@@ -55,7 +55,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p> </div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
              <div className='c1'>
   <img className='cri'src={"https://www.sefiles.net/merchant/4598/images/site/1540841033965.jpg"}/>
   <h1 className='spga'>Tire leavers</h1>
@@ -66,7 +68,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>-
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 
              </div>
@@ -83,8 +87,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p>  </div> 
-
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 
 
@@ -118,7 +123,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
   <img className='pri'src={ "https://www.sefiles.net/merchant/4598/images/site/1540840944926.jpg"}/>
@@ -130,7 +137,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
  
  </div>
 
@@ -154,7 +163,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
    <img className='cri'src={"https://www.sefiles.net/merchant/4598/images/site/1540840856785.jpg"}/>
@@ -166,7 +177,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
  <div className='c1'>
    <img className='cri'src={"https://rukminim2.flixcart.com/image/612/612/xif0q/cyclocomputer/7/o/r/bicycle-computer-odometer-speedometer-wired-cyclocomputer-original-imaggwwffssspnkh.jpeg?q=70"}/>
@@ -178,7 +191,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
   </div>
   <div className='container1'>
 
@@ -192,7 +207,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img className='fot'src={"https://rukminim2.flixcart.com/image/612/612/jcjejrk0/sport-glove/u/4/c/lift-and-right-l-pro-biker-full-finger-110-l-cycling-gloves-original-imaffmghuhff8ufz.jpeg?q=70"}/>
@@ -204,7 +221,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 <div className='c1'>
 <img className='fot'src={ "https://m.media-amazon.com/images/I/612VDkue17L._AC_UL480_FMwebp_QL65_.jpg"}/>
@@ -216,7 +235,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div> 
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
 </div>
 
@@ -234,8 +255,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div><p><button  className='tata'>Buy now</button></p></div>
-
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 <div className='c1'>
    <img className='tri'src={"https://rukminim2.flixcart.com/image/612/612/kwtkxow0/fender/d/h/u/bicycle-full-length-front-rear-fender-black-green-bicycle-full-original-imag9esruyyddx3z.jpeg?q=70"}/>
    <h1 className='spga'>Front and Rear Fender</h1>
@@ -246,7 +268,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
 
  
 <div className='c1'>
@@ -259,7 +283,9 @@ import { useState } from 'react'
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
-             </div> <p><button  className='tata'>Buy now</button></p></div>
+                  </div>
+             <p><button className='tata'><Link className='ink'to='/Buy'>Buy now</Link></button></p>
+           </div>
   </div>
 </div>
 

@@ -21,7 +21,7 @@ import Swimming from './views/Swimming/Swimming';
 import Faq from './views/Faq/Faq';
 import Cycling from './views/Cycling/Cyling'
 import News from './views/News/News';
-
+import Buy from './views/Buy/Buy'
 const router = createBrowserRouter([
   { 
     path: '/',
@@ -100,8 +100,11 @@ const router = createBrowserRouter([
   {
     path: '/Swimming',
     element:<Swimming/>
+  },
+  {
+    path: '/Buy',
+    element:<Buy/>
   }
-  
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
