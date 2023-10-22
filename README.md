@@ -24,18 +24,7 @@ Sporting equipment can be used as protective gear or a tool used to help the ath
 Playing sports keeps our body active, which is very important for the fitness and health of our body. Sports develop the spirit of competition in us, which is useful in our life, it is necessary to move forward in life. Unless the spirit of competition is developed in our life, we will not try to move forward.
 # Contributers
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <a href="https://github.com/vedika2554/SportsCentra">
-    <img src="./src/Component/Image/Images/bh.jpg" alt="Bhairavi" style=" width: 100px; height: 100px;border-radius: 50%">
-  </a>
-  <a href="https://github.com/vedika2554/SportsCentra">
-    <img src="./src/Component/Image/Images/pi.jpg" alt="Piyush" style="border-radius: 50%; width: 100px; height: 100px;">
-  </a>
-  <a href="https://github.com/vedika2554/SportsCentra">
-    <img src="./src/Component/Image/Images/ve.jpg" alt="vedika" style="height: 100px;border-radius: 50%; width: 100px; ">
-  </a>
+
+
+    ![bh](./src/Component/Image/Images/bh.jpg")
   
-  <a href="https://github.com/vedika2554/SportsCentra">
-    <img src="./src/Component/Image/Images/sa.jpg" alt="Kashish" style="height: 100px; width: 100px; border-radius:50%">
-  </a>
-</div>
