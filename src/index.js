@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css'
 import ReactDOM from 'react-dom/client';
 import {  RouterProvider, createBrowserRouter} from 'react-router-dom'
-import Home from './views/Home/Home'
+import Home from './views/Home//Home'
 import Sports from './views/Sports/Sports';
 import About  from './views/About/About'
 import Help from './views/Help/Help'

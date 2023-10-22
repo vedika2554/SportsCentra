@@ -1,4 +1,4 @@
-import './Home.css'
+import './../Home/Home.css'
 import imgcricket from './../../Component/Image/cricket.jpg'
 import imgFootball from './../../Component/Image/football.jpg'
 import imghockey from './../../Component/Image/hockey.jpg'
