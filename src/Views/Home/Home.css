@@ -37,6 +37,7 @@ border-radius: 20px;
 .container{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 .r1{

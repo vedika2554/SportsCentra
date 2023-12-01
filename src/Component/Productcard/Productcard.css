@@ -1,6 +1,7 @@
 .card{
     margin-top: 0px;
     display: flex;
+    flex-wrap: wrap;
 }
 .na{
     margin-left: 20px;
