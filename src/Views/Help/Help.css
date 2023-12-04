@@ -38,4 +38,5 @@
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 70px;
+    flex-wrap: wrap;
 }
